@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:sass": "node-sass sass/main.scss css/index.css -w",
+    "watch:sass": "node-sass sass/base.scss css/index.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/main.scss css/index.comp.css",
+    "compile:sass": "node-sass sass/base.scss css/index.comp.css",
     "concat:css": "concat -o css/index.concat.css css/icon-font.css css/index.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/index.concat.css -o css/index.prefix.css",
     "compress:css": "node-sass css/index.prefix.css css/index.css --output-style compressed",

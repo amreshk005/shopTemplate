@@ -1,0 +1,93 @@
+.navbar-1 {
+  height: 56px;
+  width: 100vw;
+  background: #2874f0;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center; }
+  .navbar-1__margin {
+    height: 100%;
+    min-width: 9.25vw; }
+  .navbar-1__content {
+    height: 100%;
+    max-width: 115vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .navbar-1__content__logosection {
+      max-width: 12.6vw;
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .navbar-1__content__logosection__logo {
+        height: 20px;
+        width: 75px; }
+    .navbar-1__content__formsection {
+      max-width: 53.3vw;
+      height: 100%;
+      display: flex;
+      align-items: center; }
+      .navbar-1__content__formsection__form {
+        width: 564px; }
+        .navbar-1__content__formsection__form__input {
+          padding: 0 16px;
+          border-radius: 2px 0 0 2px;
+          border: 0;
+          outline: none;
+          height: 36px;
+          width: 100%; }
+    .navbar-1__content__Account {
+      max-width: 150px;
+      height: 100%; }
+    .navbar-1__content__More {
+      width: 50px; }
+    .navbar-1__content__MyCart {
+      width: 62px; }
+  .navbar-1__margin1 {
+    height: 100%;
+    min-width: 9.25vw; }
+
+.navbar-2 {
+  height: 40px;
+  width: 100vw;
+  background: #fff;
+  color: black; }
+
+.content {
+  width: 100vw;
+  background: #f37160;
+  color: yellow; }
+
+.recommend {
+  height: 10vh;
+  width: 100vw;
+  background: #ff2f90;
+  color: #00ffd5; }
+
+.footer {
+  height: 10vh;
+  width: 100vw;
+  background: #bce47c;
+  color: #7bff00; }
+
+html,
+body {
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column; }
