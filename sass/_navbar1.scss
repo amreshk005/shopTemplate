@@ -108,13 +108,11 @@
           justify-content: flex-start;
           @include lisectionfornav;
           &__icon {
-            font-size: 25px;
+            // font-size: 80px;
             display: inline-block;
             position: relative;
             .icon {
               display: inline-block;
-              width: 1em;
-              height: 1em;
               stroke-width: 0;
               stroke: currentColor;
               fill: currentColor;
@@ -126,7 +124,7 @@
               border-radius: 40%;
               background: red;
               z-index: 7;
-              margin: -35px 0 0 3px;
+              margin: -35px 0 0 7px;
               font-size: 15px;
               text-align: center;
               border: 1px solid #fff;
