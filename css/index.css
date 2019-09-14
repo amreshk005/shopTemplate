@@ -7,15 +7,15 @@
   align-items: center; }
   .navbar-1__margin {
     height: 100%;
-    min-width: 9.25vw; }
+    min-width: 124px; }
   .navbar-1__content {
+    max-width: 1248px;
     height: 100%;
-    max-width: 115vw;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center; }
     .navbar-1__content__logosection {
-      max-width: 12.6vw;
+      min-width: 137px;
       height: 100%;
       display: flex;
       justify-content: flex-end;
@@ -24,29 +24,62 @@
         height: 20px;
         width: 75px; }
     .navbar-1__content__formsection {
-      max-width: 53.3vw;
       height: 100%;
+      min-width: 304px;
+      margin: 0 auto 0 12px;
+      width: calc(100% - 564px);
       display: flex;
+      justify-content: flex-start;
       align-items: center; }
       .navbar-1__content__formsection__form {
-        width: 564px; }
-        .navbar-1__content__formsection__form__input {
-          padding: 0 16px;
-          border-radius: 2px 0 0 2px;
-          border: 0;
-          outline: none;
-          height: 36px;
-          width: 100%; }
-    .navbar-1__content__Account {
-      max-width: 150px;
-      height: 100%; }
-    .navbar-1__content__More {
-      width: 50px; }
-    .navbar-1__content__MyCart {
-      width: 62px; }
+        display: inline-block;
+        width: 100%;
+        max-width: 564px;
+        height: 36px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+        position: relative; }
+        .navbar-1__content__formsection__form__inner {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-radius: 2px;
+          background: #fff; }
+          .navbar-1__content__formsection__form__inner__input {
+            padding: 0 16px;
+            border: 0;
+            outline: none;
+            height: 36px;
+            width: 100%; }
+          .navbar-1__content__formsection__form__inner__button {
+            border: 1px solid #fff;
+            background-color: #fff;
+            height: 36px;
+            width: 44px;
+            border-radius: 2px;
+            cursor: pointer;
+            padding: 4px 12px 0 8px; }
+    .navbar-1__content__Accountsection {
+      flex: 0 0 auto;
+      margin: 0 2rem 0 4rem;
+      max-width: 150px; }
+      .navbar-1__content__Accountsection__Account {
+        max-width: 150px;
+        height: 100%; }
+    .navbar-1__content__MoreSection {
+      flex: 0 0 auto;
+      margin: 0 2rem 0 2rem; }
+      .navbar-1__content__MoreSection__More {
+        height: 100%;
+        width: 50px; }
+    .navbar-1__content__MyCartSection {
+      flex: 0 0 auto;
+      margin: 0 2rem 0 2rem; }
+      .navbar-1__content__MyCartSection__MyCart {
+        height: 100%;
+        width: 62px; }
   .navbar-1__margin1 {
     height: 100%;
-    min-width: 9.25vw; }
+    min-width: 124px; }
 
 .navbar-2 {
   height: 40px;
