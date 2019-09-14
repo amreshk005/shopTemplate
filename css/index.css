@@ -57,35 +57,99 @@
             width: 44px;
             border-radius: 2px;
             cursor: pointer;
-            padding: 4px 12px 0 8px; }
+            padding: 4px 12px 0 8px;
+            font-size: 17px;
+            color: #2874f0;
+            outline: none; }
     .navbar-1__content__Accountsection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 4rem;
+      margin: 0 0rem 0 4rem;
       max-width: 150px; }
-      .navbar-1__content__Accountsection__Account {
-        max-width: 150px;
-        height: 100%; }
+      .navbar-1__content__Accountsection__Account__myAccount {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #fff;
+        cursor: pointer; }
     .navbar-1__content__MoreSection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 2rem; }
-      .navbar-1__content__MoreSection__More {
-        height: 100%;
-        width: 50px; }
+      margin: 0 1rem 0 2rem; }
+      .navbar-1__content__MoreSection__More__myMore {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #fff;
+        cursor: pointer; }
     .navbar-1__content__MyCartSection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 2rem; }
-      .navbar-1__content__MyCartSection__MyCart {
+      margin: 0 4rem 0 2rem; }
+      .navbar-1__content__MyCartSection__Cart {
         height: 100%;
         width: 62px; }
+        .navbar-1__content__MyCartSection__Cart__myCart {
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: flex-start;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.1px;
+          color: #fff;
+          cursor: pointer; }
+          .navbar-1__content__MyCartSection__Cart__myCart__icon {
+            font-size: 25px;
+            display: inline-block;
+            position: relative; }
+            .navbar-1__content__MyCartSection__Cart__myCart__icon .icon {
+              display: inline-block;
+              width: 1em;
+              height: 1em;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+            .navbar-1__content__MyCartSection__Cart__myCart__icon__notifications {
+              position: absolute;
+              width: 18px;
+              height: 18px;
+              border-radius: 40%;
+              background: red;
+              z-index: 7;
+              margin: -35px 0 0 3px;
+              font-size: 15px;
+              text-align: center;
+              border: 1px solid #fff; }
   .navbar-1__margin1 {
     height: 100%;
     min-width: 124px; }
 
 .navbar-2 {
-  height: 40px;
+  min-height: 40px;
   width: 100vw;
-  background: #fff;
-  color: black; }
+  color: black;
+  text-align: center; }
+  .navbar-2__menu {
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: 600; }
+    .navbar-2__menu li {
+      list-style: none; }
+    .navbar-2__menu li > * {
+      padding: 12px 10px 9px;
+      font-weight: 600;
+      display: block;
+      cursor: pointer;
+      position: relative;
+      color: #212121; }
 
 .content {
   width: 100vw;
@@ -120,7 +184,7 @@ body {
 .container {
   min-height: 100vh;
   width: 100vw;
-  font-size: 62.5%;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-family: "Roboto, Arial, sans-serif";
   display: flex;
   flex-direction: column; }

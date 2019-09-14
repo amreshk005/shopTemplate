@@ -1,3 +1,5 @@
+@import "./mixins";
+
 .navbar-1 {
   height: 56px;
   width: 100vw;
@@ -67,33 +69,70 @@
             border-radius: 2px;
             cursor: pointer;
             padding: 4px 12px 0 8px;
+            font-size: 17px;
+            color: #2874f0;
+            outline: none;
           }
         }
       }
     }
     &__Accountsection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 4rem;
+      margin: 0 0rem 0 4rem;
       max-width: 150px;
       &__Account {
-        max-width: 150px;
-        height: 100%;
+        &__myAccount {
+          @include lisectionfornav;
+        }
       }
     }
     &__MoreSection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 2rem;
+      margin: 0 1rem 0 2rem;
       &__More {
-        height: 100%;
-        width: 50px;
+        &__myMore {
+          @include lisectionfornav;
+        }
       }
     }
     &__MyCartSection {
       flex: 0 0 auto;
-      margin: 0 2rem 0 2rem;
-      &__MyCart {
+      margin: 0 4rem 0 2rem;
+      &__Cart {
         height: 100%;
         width: 62px;
+        &__myCart {
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: flex-start;
+          @include lisectionfornav;
+          &__icon {
+            font-size: 25px;
+            display: inline-block;
+            position: relative;
+            .icon {
+              display: inline-block;
+              width: 1em;
+              height: 1em;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor;
+            }
+            &__notifications {
+              position: absolute;
+              width: 18px;
+              height: 18px;
+              border-radius: 40%;
+              background: red;
+              z-index: 7;
+              margin: -35px 0 0 3px;
+              font-size: 15px;
+              text-align: center;
+              border: 1px solid #fff;
+            }
+          }
+        }
       }
     }
   }
