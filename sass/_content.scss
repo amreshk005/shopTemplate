@@ -161,6 +161,39 @@
               width: 100%;
             }
           }
+
+          &__limit {
+            color: #a3a3a3;
+            font-size: 14px;
+            margin: 30px -4px 0;
+            display: flex;
+            justify-content: stretch;
+            &__box1 {
+              display: inline-block;
+              flex-grow: 2;
+
+              &__min {
+                @include rangebox;
+              }
+            }
+            &__to {
+              display: inline-block;
+              margin: 3px 9px;
+              font-size: 20px;
+              color: #878787;
+              line-height: 1;
+              flex: 1;
+              text-align: center;
+            }
+            &__box2 {
+              display: inline-block;
+              flex-grow: 2;
+              margin-left: 1.5px;
+              &__min {
+                @include rangebox;
+              }
+            }
+          }
         }
       }
     }

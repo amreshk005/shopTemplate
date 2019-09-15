@@ -299,6 +299,55 @@
             display: inline-block;
             position: absolute;
             width: 100%; }
+        .content .sidebar__associate__content__3__limit {
+          color: #a3a3a3;
+          font-size: 14px;
+          margin: 30px -4px 0;
+          display: flex;
+          justify-content: stretch; }
+          .content .sidebar__associate__content__3__limit__box1 {
+            display: inline-block;
+            flex-grow: 2; }
+            .content .sidebar__associate__content__3__limit__box1__min {
+              width: 100%;
+              border: 1px solid #e0e0e0;
+              border-radius: 1px;
+              background: #fff;
+              height: 33px;
+              font-size: 14px;
+              color: #212121;
+              line-height: 1;
+              padding: 0 5px;
+              appearance: none;
+              -webkit-appearance: none;
+              outline: none;
+              background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
+          .content .sidebar__associate__content__3__limit__to {
+            display: inline-block;
+            margin: 3px 9px;
+            font-size: 20px;
+            color: #878787;
+            line-height: 1;
+            flex: 1;
+            text-align: center; }
+          .content .sidebar__associate__content__3__limit__box2 {
+            display: inline-block;
+            flex-grow: 2;
+            margin-left: 1.5px; }
+            .content .sidebar__associate__content__3__limit__box2__min {
+              width: 100%;
+              border: 1px solid #e0e0e0;
+              border-radius: 1px;
+              background: #fff;
+              height: 33px;
+              font-size: 14px;
+              color: #212121;
+              line-height: 1;
+              padding: 0 5px;
+              appearance: none;
+              -webkit-appearance: none;
+              outline: none;
+              background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
 
 .recommend {
   height: 10vh;
