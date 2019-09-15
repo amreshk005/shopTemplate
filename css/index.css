@@ -150,8 +150,63 @@
 
 .content {
   width: 100vw;
+  min-height: 100vh;
   background: #f37160;
-  color: yellow; }
+  color: #242424;
+  display: flex; }
+  .content .sidebar {
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 10px 10px 0px 10px;
+    flex-flow: column;
+    background: whitesmoke; }
+    .content .sidebar__associate {
+      position: relative;
+      background: #fff;
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06); }
+      .content .sidebar__associate__content__1 {
+        padding-bottom: 12px;
+        padding: 16px;
+        border-bottom: 1px solid #f0f0f0; }
+        .content .sidebar__associate__content__1__filters {
+          font-size: 18px;
+          text-transform: capitalize;
+          width: 67%;
+          color: #242424; }
+      .content .sidebar__associate__content__2 {
+        font-size: 14px;
+        padding: 16px;
+        border-bottom: 1px solid #f0f0f0; }
+        .content .sidebar__associate__content__2__categories {
+          font-size: 14px;
+          font-weight: 500;
+          text-transform: uppercase;
+          color: #212121;
+          margin-bottom: 5px; }
+        .content .sidebar__associate__content__2__categories1__items {
+          padding: 5px 0;
+          color: #212121;
+          white-space: nowrap; }
+          .content .sidebar__associate__content__2__categories1__items span.icon {
+            display: inline-block;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor; }
+          .content .sidebar__associate__content__2__categories1__items a {
+            color: #212121;
+            text-decoration: none; }
+        .content .sidebar__associate__content__2__categories2__items {
+          padding: 5px 0;
+          color: #212121;
+          white-space: nowrap; }
+          .content .sidebar__associate__content__2__categories2__items span.icon {
+            display: inline-block;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor; }
+          .content .sidebar__associate__content__2__categories2__items a {
+            color: #212121;
+            text-decoration: none; }
 
 .recommend {
   height: 10vh;

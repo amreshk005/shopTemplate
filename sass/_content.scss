@@ -1,5 +1,86 @@
 .content {
   width: 100vw;
+  min-height: 100vh;
   background: rgb(243, 113, 96);
-  color: yellow;
+  color: #242424;
+  display: flex;
+  .sidebar {
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 10px 10px 0px 10px;
+    flex-flow: column;
+    background: whitesmoke;
+    &__associate {
+      position: relative;
+      background: #fff;
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+      &__content {
+        &__1 {
+          padding-bottom: 12px;
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0;
+
+          &__filters {
+            font-size: 18px;
+            text-transform: capitalize;
+            width: 67%;
+            color: #242424;
+          }
+        }
+        &__2 {
+          font-size: 14px;
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0;
+
+          &__categories {
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #212121;
+            margin-bottom: 5px;
+          }
+
+          &__categories1 {
+            &__items {
+              padding: 5px 0;
+              color: #212121;
+              white-space: nowrap;
+              span.icon {
+                display: inline-block;
+                stroke-width: 0;
+                stroke: currentColor;
+                fill: currentColor;
+              }
+              a {
+                color: #212121;
+                text-decoration: none;
+              }
+            }
+          }
+          &__categories2 {
+            &__items {
+              padding: 5px 0;
+              color: #212121;
+              white-space: nowrap;
+              span.icon {
+                display: inline-block;
+                stroke-width: 0;
+                stroke: currentColor;
+                fill: currentColor;
+              }
+              a {
+                color: #212121;
+                text-decoration: none;
+              }
+            }
+          }
+
+          &__categories3 {
+          }
+        }
+        &__3 {
+        }
+      }
+    }
+  }
 }
