@@ -22,19 +22,21 @@
 
           &__filters {
             font-size: 18px;
+            font-weight: bolder;
             text-transform: capitalize;
             width: 67%;
             color: #242424;
+            letter-spacing: 0.3px;
           }
         }
         &__2 {
-          font-size: 14px;
+          font-size: 16px;
           padding: 16px;
           border-bottom: 1px solid #f0f0f0;
 
           &__categories {
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 600;
             text-transform: uppercase;
             color: #212121;
             margin-bottom: 5px;
@@ -43,7 +45,7 @@
           &__categories1 {
             &__items {
               padding: 5px 0;
-              color: #212121;
+              color: #878787;
               white-space: nowrap;
               span.icon {
                 display: inline-block;
@@ -60,7 +62,7 @@
           &__categories2 {
             &__items {
               padding: 5px 0;
-              color: #212121;
+              color: #878787;
               white-space: nowrap;
               span.icon {
                 display: inline-block;
@@ -76,6 +78,23 @@
           }
 
           &__categories3 {
+            &__items {
+              padding: 5px 0;
+              color: #212121;
+              white-space: nowrap;
+
+              span.icon {
+                display: inline-block;
+                stroke-width: 0;
+                stroke: currentColor;
+                fill: currentColor;
+              }
+              a {
+                color: #212121;
+                text-decoration: none;
+                font-weight: bold;
+              }
+            }
           }
         }
         &__3 {

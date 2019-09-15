@@ -170,22 +170,24 @@
         border-bottom: 1px solid #f0f0f0; }
         .content .sidebar__associate__content__1__filters {
           font-size: 18px;
+          font-weight: bolder;
           text-transform: capitalize;
           width: 67%;
-          color: #242424; }
+          color: #242424;
+          letter-spacing: 0.3px; }
       .content .sidebar__associate__content__2 {
-        font-size: 14px;
+        font-size: 16px;
         padding: 16px;
         border-bottom: 1px solid #f0f0f0; }
         .content .sidebar__associate__content__2__categories {
           font-size: 14px;
-          font-weight: 500;
+          font-weight: 600;
           text-transform: uppercase;
           color: #212121;
           margin-bottom: 5px; }
         .content .sidebar__associate__content__2__categories1__items {
           padding: 5px 0;
-          color: #212121;
+          color: #878787;
           white-space: nowrap; }
           .content .sidebar__associate__content__2__categories1__items span.icon {
             display: inline-block;
@@ -197,7 +199,7 @@
             text-decoration: none; }
         .content .sidebar__associate__content__2__categories2__items {
           padding: 5px 0;
-          color: #212121;
+          color: #878787;
           white-space: nowrap; }
           .content .sidebar__associate__content__2__categories2__items span.icon {
             display: inline-block;
@@ -207,6 +209,19 @@
           .content .sidebar__associate__content__2__categories2__items a {
             color: #212121;
             text-decoration: none; }
+        .content .sidebar__associate__content__2__categories3__items {
+          padding: 5px 0;
+          color: #212121;
+          white-space: nowrap; }
+          .content .sidebar__associate__content__2__categories3__items span.icon {
+            display: inline-block;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor; }
+          .content .sidebar__associate__content__2__categories3__items a {
+            color: #212121;
+            text-decoration: none;
+            font-weight: bold; }
 
 .recommend {
   height: 10vh;
