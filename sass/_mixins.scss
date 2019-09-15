@@ -8,3 +8,31 @@
   color: #fff;
   cursor: pointer;
 }
+
+@mixin circle {
+  right: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #bababa;
+  position: absolute;
+  background: #fff;
+  top: 3.5px;
+}
+
+@mixin circlesection($left, $right) {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: -3.5px;
+  // background: #fff;
+
+  @if $left == 0 or $right > 0 {
+    right: $right;
+  } @else {
+    left: $left;
+  }
+}

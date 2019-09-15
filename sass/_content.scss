@@ -1,3 +1,4 @@
+@import "./mixins";
 .content {
   width: 100vw;
   min-height: 100vh;
@@ -22,7 +23,7 @@
 
           &__filters {
             font-size: 18px;
-            font-weight: bolder;
+            font-weight: 500;
             text-transform: capitalize;
             width: 67%;
             color: #242424;
@@ -98,6 +99,68 @@
           }
         }
         &__3 {
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0;
+          &__price {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            display: inline-block;
+          }
+          &__mapsection {
+            height: 29px;
+            letter-spacing: -3.5px;
+            margin: 0;
+            padding: 0;
+            padding-top: 5px;
+            &__map {
+              height: 100%;
+              position: relative;
+              bottom: -6px;
+            }
+            &__map > * {
+              background: #e0e0e0;
+              display: inline-block;
+            }
+          }
+          &__range {
+            height: 13px;
+            position: relative;
+            cursor: pointer;
+
+            &__circlesection1 {
+              @include circlesection(-13.5px, 0px);
+              &__circle {
+                @include circle;
+              }
+            }
+            &__circlesection2 {
+              @include circlesection(0, -5.5px);
+              &__circle {
+                @include circle;
+                background: yellow;
+              }
+            }
+            &__line1 {
+              background: #c2c2c2;
+              height: 2px;
+              position: absolute;
+              display: inline-block;
+              top: 6px;
+              width: 100%;
+            }
+
+            &__line2 {
+              background: #2874f0;
+              // transform-origin: left center;
+              top: 4px;
+              height: 6px;
+              display: inline-block;
+              position: absolute;
+              width: 100%;
+            }
+          }
         }
       }
     }
