@@ -348,6 +348,95 @@
               -webkit-appearance: none;
               outline: none;
               background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
+      .content .sidebar__associate__content__4 {
+        display: flex;
+        justify-content: space-between;
+        padding: 16px;
+        border-bottom: 1px solid #f0f0f0;
+        cursor: pointer;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative; }
+        .content .sidebar__associate__content__4__assuredsection {
+          width: 100%;
+          box-sizing: border-box; }
+          .content .sidebar__associate__content__4__assuredsection label {
+            display: flex; }
+          .content .sidebar__associate__content__4__assuredsection .inputBox {
+            display: inline-block;
+            visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            vertical-align: top !important; }
+          .content .sidebar__associate__content__4__assuredsection .inputBox1 {
+            position: relative;
+            width: 14px;
+            height: 14px;
+            background: transparent;
+            border-radius: 1.5px;
+            border: 1.4px solid #c2c2c2;
+            display: inline-block;
+            cursor: pointer; }
+          .content .sidebar__associate__content__4__assuredsection .inputBox1:before {
+            position: absolute;
+            content: "";
+            left: 5px;
+            top: 2px;
+            width: 4px;
+            height: 8px;
+            border: solid #fff;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+            backface-visibility: hidden; }
+          .content .sidebar__associate__content__4__assuredsection .inputBox[type="checkbox"]:checked + .inputBox1 {
+            background: #2874f0;
+            border: 1.4px solid #2874f0; }
+          .content .sidebar__associate__content__4__assuredsection .assuredlogo {
+            padding-left: 11px;
+            color: #212121;
+            width: calc(100%-25px); }
+        .content .sidebar__associate__content__4__help__question {
+          border-radius: 50%;
+          background: #fff;
+          color: #878787;
+          font-weight: 600;
+          width: 18px;
+          height: 18px;
+          font-size: 11px;
+          line-height: 16px;
+          text-align: center;
+          display: inline-block;
+          border: 1px solid #e0e0e0;
+          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+          vertical-align: middle;
+          margin: 0 2px 0 8px;
+          cursor: pointer; }
+      .content .sidebar__associate__content__5 {
+        padding: 16px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f0f0f0;
+        position: relative; }
+        .content .sidebar__associate__content__5__titlesection {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          cursor: pointer;
+          margin: -16px;
+          padding: 16px; }
+          .content .sidebar__associate__content__5__titlesection__title {
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            display: inline-block;
+            width: 95%;
+            cursor: pointer; }
+          .content .sidebar__associate__content__5__titlesection .icon {
+            display: inline-block;
+            stroke-width: 0;
+            stroke: currentColor;
+            fill: currentColor; }
 
 .recommend {
   height: 10vh;
