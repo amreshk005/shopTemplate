@@ -16,6 +16,7 @@
       background: #fff;
       box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
       &__content {
+        max-width: 280px;
         &__1 {
           padding-bottom: 12px;
           padding: 16px;
@@ -211,45 +212,21 @@
               display: flex;
             }
             .inputBox {
-              display: inline-block;
-              visibility: hidden;
-              position: absolute;
-              top: 0;
-              left: 0;
-              vertical-align: top !important;
+              @include input;
             }
             .inputBox1 {
-              position: relative;
-              width: 14px;
-              height: 14px;
-              background: transparent;
-              border-radius: 1.5px;
-              border: 1.4px solid #c2c2c2;
-              display: inline-block;
-              cursor: pointer;
+              @include divcheckbox;
             }
 
             .inputBox1:before {
-              position: absolute;
-              content: "";
-              left: 5px;
-              top: 2px;
-              width: 4px;
-              height: 8px;
-              border: solid #fff;
-              border-width: 0 2px 2px 0;
-              transform: rotate(45deg);
-              backface-visibility: hidden;
-              // display: none;
+              @include divcheckboxbefore;
             }
             .inputBox[type="checkbox"]:checked + .inputBox1 {
               background: #2874f0;
               border: 1.4px solid#2874f0;
             }
             .assuredlogo {
-              padding-left: 11px;
-              color: #212121;
-              width: calc(100%-25px);
+              @include brandtag;
             }
           }
 
@@ -274,11 +251,14 @@
           }
         }
         &__5 {
-          padding: 16px;
+          width: 100%;
+          padding: 10px;
           box-sizing: border-box;
           border-bottom: 1px solid #f0f0f0;
-          position: relative;
+
           &__titlesection {
+            width: 90%;
+            position: absolute;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -286,8 +266,9 @@
             margin: -16px;
             padding: 16px;
             &__title {
+              padding-bottom: 10px;
               font-size: 13px;
-              font-weight: 500;
+              font-weight: 600;
               text-transform: uppercase;
               letter-spacing: 0.3px;
               display: inline-block;
@@ -303,8 +284,121 @@
           }
           &__contentsection {
             &__content {
+              margin: 7px 0;
+              box-sizing: content-box;
+              padding-top: 20px;
+
+              &__1 {
+                margin-bottom: 20px;
+                position: relative;
+                &__input {
+                  width: 90%;
+                  border-width: 0 0 2px;
+                  border-color: #e0e0e0;
+                  height: 20px;
+                  font-size: 14px;
+                  padding: 0 0 0 21px;
+                  color: red;
+                  outline: none;
+                }
+                .icon {
+                  position: absolute;
+                  z-index: 1;
+                }
+              }
+              &__2,
+              &__3,
+              &__4,
+              &__5,
+              &__6,
+              &__7 {
+                @include sidebar_checkbox_brand_section;
+              }
             }
             &__more {
+              font-size: 14px;
+              font-weight: 700;
+              color: #2874f0;
+              text-transform: uppercase;
+              cursor: pointer;
+              margin-top: 9px;
+              padding-bottom: 10px;
+            }
+          }
+        }
+        &__6 {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          border-bottom: 1px solid #f0f0f0;
+
+          &__titlesection {
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            margin: -16px;
+            padding: 16px;
+            &__title {
+              padding-bottom: 10px;
+              font-size: 13px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.3px;
+              display: inline-block;
+              width: 95%;
+              cursor: pointer;
+            }
+            .icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor;
+            }
+          }
+          &__contentsection {
+            &__content {
+              margin: 7px 0;
+              box-sizing: content-box;
+              padding-top: 20px;
+
+              &__1 {
+                margin-bottom: 20px;
+                position: relative;
+                &__input {
+                  width: 90%;
+                  border-width: 0 0 2px;
+                  border-color: #e0e0e0;
+                  height: 20px;
+                  font-size: 14px;
+                  padding: 0 0 0 21px;
+                  color: red;
+                  outline: none;
+                }
+                .icon {
+                  position: absolute;
+                  z-index: 1;
+                }
+              }
+              &__2,
+              &__3,
+              &__4,
+              &__5,
+              &__6,
+              &__7 {
+                @include sidebar_checkbox_brand_section;
+              }
+            }
+            &__more {
+              font-size: 14px;
+              font-weight: 700;
+              color: #2874f0;
+              text-transform: uppercase;
+              cursor: pointer;
+              margin-top: 9px;
+              padding-bottom: 10px;
             }
           }
         }

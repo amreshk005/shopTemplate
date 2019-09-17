@@ -164,279 +164,484 @@
       position: relative;
       background: #fff;
       box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06); }
-      .content .sidebar__associate__content__1 {
-        padding-bottom: 12px;
-        padding: 16px;
-        border-bottom: 1px solid #f0f0f0; }
-        .content .sidebar__associate__content__1__filters {
-          font-size: 18px;
-          font-weight: 500;
-          text-transform: capitalize;
-          width: 67%;
-          color: #242424;
-          letter-spacing: 0.3px; }
-      .content .sidebar__associate__content__2 {
-        font-size: 16px;
-        padding: 16px;
-        border-bottom: 1px solid #f0f0f0; }
-        .content .sidebar__associate__content__2__categories {
-          font-size: 14px;
-          font-weight: 600;
-          text-transform: uppercase;
-          color: #212121;
-          margin-bottom: 5px; }
-        .content .sidebar__associate__content__2__categories1__items {
-          padding: 5px 0;
-          color: #878787;
-          white-space: nowrap; }
-          .content .sidebar__associate__content__2__categories1__items span.icon {
-            display: inline-block;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: currentColor; }
-          .content .sidebar__associate__content__2__categories1__items a {
-            color: #212121;
-            text-decoration: none; }
-        .content .sidebar__associate__content__2__categories2__items {
-          padding: 5px 0;
-          color: #878787;
-          white-space: nowrap; }
-          .content .sidebar__associate__content__2__categories2__items span.icon {
-            display: inline-block;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: currentColor; }
-          .content .sidebar__associate__content__2__categories2__items a {
-            color: #212121;
-            text-decoration: none; }
-        .content .sidebar__associate__content__2__categories3__items {
-          padding: 5px 0;
-          color: #212121;
-          white-space: nowrap; }
-          .content .sidebar__associate__content__2__categories3__items span.icon {
-            display: inline-block;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: currentColor; }
-          .content .sidebar__associate__content__2__categories3__items a {
-            color: #212121;
-            text-decoration: none;
-            font-weight: bold; }
-      .content .sidebar__associate__content__3 {
-        padding: 16px;
-        border-bottom: 1px solid #f0f0f0; }
-        .content .sidebar__associate__content__3__price {
-          font-size: 13px;
-          font-weight: 600;
-          text-transform: uppercase;
-          letter-spacing: 0.3px;
-          display: inline-block; }
-        .content .sidebar__associate__content__3__mapsection {
-          height: 29px;
-          letter-spacing: -3.5px;
-          margin: 0;
-          padding: 0;
-          padding-top: 5px; }
-          .content .sidebar__associate__content__3__mapsection__map {
-            height: 100%;
-            position: relative;
-            bottom: -6px; }
-          .content .sidebar__associate__content__3__mapsection__map > * {
-            background: #e0e0e0;
-            display: inline-block; }
-        .content .sidebar__associate__content__3__range {
-          height: 13px;
-          position: relative;
-          cursor: pointer; }
-          .content .sidebar__associate__content__3__range__circlesection1 {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            z-index: 1;
-            position: absolute;
-            top: -3.5px;
-            left: -13.5px; }
-            .content .sidebar__associate__content__3__range__circlesection1__circle {
-              right: 0;
-              width: 13px;
-              height: 13px;
-              border-radius: 50%;
-              border: 1px solid #bababa;
-              position: absolute;
-              background: #fff;
-              top: 3.5px; }
-          .content .sidebar__associate__content__3__range__circlesection2 {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-            z-index: 1;
-            position: absolute;
-            top: -3.5px;
-            right: -5.5px; }
-            .content .sidebar__associate__content__3__range__circlesection2__circle {
-              right: 0;
-              width: 13px;
-              height: 13px;
-              border-radius: 50%;
-              border: 1px solid #bababa;
-              position: absolute;
-              background: #fff;
-              top: 3.5px;
-              background: yellow; }
-          .content .sidebar__associate__content__3__range__line1 {
-            background: #c2c2c2;
-            height: 2px;
-            position: absolute;
-            display: inline-block;
-            top: 6px;
-            width: 100%; }
-          .content .sidebar__associate__content__3__range__line2 {
-            background: #2874f0;
-            top: 4px;
-            height: 6px;
-            display: inline-block;
-            position: absolute;
-            width: 100%; }
-        .content .sidebar__associate__content__3__limit {
-          color: #a3a3a3;
-          font-size: 14px;
-          margin: 30px -4px 0;
-          display: flex;
-          justify-content: stretch; }
-          .content .sidebar__associate__content__3__limit__box1 {
-            display: inline-block;
-            flex-grow: 2; }
-            .content .sidebar__associate__content__3__limit__box1__min {
-              width: 100%;
-              border: 1px solid #e0e0e0;
-              border-radius: 1px;
-              background: #fff;
-              height: 33px;
-              font-size: 14px;
-              color: #212121;
-              line-height: 1;
-              padding: 0 5px;
-              appearance: none;
-              -webkit-appearance: none;
-              outline: none;
-              background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
-          .content .sidebar__associate__content__3__limit__to {
-            display: inline-block;
-            margin: 3px 9px;
-            font-size: 20px;
-            color: #878787;
-            line-height: 1;
-            flex: 1;
-            text-align: center; }
-          .content .sidebar__associate__content__3__limit__box2 {
-            display: inline-block;
-            flex-grow: 2;
-            margin-left: 1.5px; }
-            .content .sidebar__associate__content__3__limit__box2__min {
-              width: 100%;
-              border: 1px solid #e0e0e0;
-              border-radius: 1px;
-              background: #fff;
-              height: 33px;
-              font-size: 14px;
-              color: #212121;
-              line-height: 1;
-              padding: 0 5px;
-              appearance: none;
-              -webkit-appearance: none;
-              outline: none;
-              background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
-      .content .sidebar__associate__content__4 {
-        display: flex;
-        justify-content: space-between;
-        padding: 16px;
-        border-bottom: 1px solid #f0f0f0;
-        cursor: pointer;
-        width: 100%;
-        box-sizing: border-box;
-        position: relative; }
-        .content .sidebar__associate__content__4__assuredsection {
-          width: 100%;
-          box-sizing: border-box; }
-          .content .sidebar__associate__content__4__assuredsection label {
-            display: flex; }
-          .content .sidebar__associate__content__4__assuredsection .inputBox {
-            display: inline-block;
-            visibility: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-            vertical-align: top !important; }
-          .content .sidebar__associate__content__4__assuredsection .inputBox1 {
-            position: relative;
-            width: 14px;
-            height: 14px;
-            background: transparent;
-            border-radius: 1.5px;
-            border: 1.4px solid #c2c2c2;
-            display: inline-block;
-            cursor: pointer; }
-          .content .sidebar__associate__content__4__assuredsection .inputBox1:before {
-            position: absolute;
-            content: "";
-            left: 5px;
-            top: 2px;
-            width: 4px;
-            height: 8px;
-            border: solid #fff;
-            border-width: 0 2px 2px 0;
-            transform: rotate(45deg);
-            backface-visibility: hidden; }
-          .content .sidebar__associate__content__4__assuredsection .inputBox[type="checkbox"]:checked + .inputBox1 {
-            background: #2874f0;
-            border: 1.4px solid #2874f0; }
-          .content .sidebar__associate__content__4__assuredsection .assuredlogo {
-            padding-left: 11px;
-            color: #212121;
-            width: calc(100%-25px); }
-        .content .sidebar__associate__content__4__help__question {
-          border-radius: 50%;
-          background: #fff;
-          color: #878787;
-          font-weight: 600;
-          width: 18px;
-          height: 18px;
-          font-size: 11px;
-          line-height: 16px;
-          text-align: center;
-          display: inline-block;
-          border: 1px solid #e0e0e0;
-          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
-          vertical-align: middle;
-          margin: 0 2px 0 8px;
-          cursor: pointer; }
-      .content .sidebar__associate__content__5 {
-        padding: 16px;
-        box-sizing: border-box;
-        border-bottom: 1px solid #f0f0f0;
-        position: relative; }
-        .content .sidebar__associate__content__5__titlesection {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          cursor: pointer;
-          margin: -16px;
-          padding: 16px; }
-          .content .sidebar__associate__content__5__titlesection__title {
-            font-size: 13px;
+      .content .sidebar__associate__content {
+        max-width: 280px; }
+        .content .sidebar__associate__content__1 {
+          padding-bottom: 12px;
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0; }
+          .content .sidebar__associate__content__1__filters {
+            font-size: 18px;
             font-weight: 500;
+            text-transform: capitalize;
+            width: 67%;
+            color: #242424;
+            letter-spacing: 0.3px; }
+        .content .sidebar__associate__content__2 {
+          font-size: 16px;
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0; }
+          .content .sidebar__associate__content__2__categories {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #212121;
+            margin-bottom: 5px; }
+          .content .sidebar__associate__content__2__categories1__items {
+            padding: 5px 0;
+            color: #878787;
+            white-space: nowrap; }
+            .content .sidebar__associate__content__2__categories1__items span.icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+            .content .sidebar__associate__content__2__categories1__items a {
+              color: #212121;
+              text-decoration: none; }
+          .content .sidebar__associate__content__2__categories2__items {
+            padding: 5px 0;
+            color: #878787;
+            white-space: nowrap; }
+            .content .sidebar__associate__content__2__categories2__items span.icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+            .content .sidebar__associate__content__2__categories2__items a {
+              color: #212121;
+              text-decoration: none; }
+          .content .sidebar__associate__content__2__categories3__items {
+            padding: 5px 0;
+            color: #212121;
+            white-space: nowrap; }
+            .content .sidebar__associate__content__2__categories3__items span.icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+            .content .sidebar__associate__content__2__categories3__items a {
+              color: #212121;
+              text-decoration: none;
+              font-weight: bold; }
+        .content .sidebar__associate__content__3 {
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0; }
+          .content .sidebar__associate__content__3__price {
+            font-size: 13px;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.3px;
-            display: inline-block;
-            width: 95%;
+            display: inline-block; }
+          .content .sidebar__associate__content__3__mapsection {
+            height: 29px;
+            letter-spacing: -3.5px;
+            margin: 0;
+            padding: 0;
+            padding-top: 5px; }
+            .content .sidebar__associate__content__3__mapsection__map {
+              height: 100%;
+              position: relative;
+              bottom: -6px; }
+            .content .sidebar__associate__content__3__mapsection__map > * {
+              background: #e0e0e0;
+              display: inline-block; }
+          .content .sidebar__associate__content__3__range {
+            height: 13px;
+            position: relative;
             cursor: pointer; }
-          .content .sidebar__associate__content__5__titlesection .icon {
+            .content .sidebar__associate__content__3__range__circlesection1 {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              cursor: pointer;
+              z-index: 1;
+              position: absolute;
+              top: -3.5px;
+              left: -13.5px; }
+              .content .sidebar__associate__content__3__range__circlesection1__circle {
+                right: 0;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                border: 1px solid #bababa;
+                position: absolute;
+                background: #fff;
+                top: 3.5px; }
+            .content .sidebar__associate__content__3__range__circlesection2 {
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              cursor: pointer;
+              z-index: 1;
+              position: absolute;
+              top: -3.5px;
+              right: -5.5px; }
+              .content .sidebar__associate__content__3__range__circlesection2__circle {
+                right: 0;
+                width: 13px;
+                height: 13px;
+                border-radius: 50%;
+                border: 1px solid #bababa;
+                position: absolute;
+                background: #fff;
+                top: 3.5px;
+                background: yellow; }
+            .content .sidebar__associate__content__3__range__line1 {
+              background: #c2c2c2;
+              height: 2px;
+              position: absolute;
+              display: inline-block;
+              top: 6px;
+              width: 100%; }
+            .content .sidebar__associate__content__3__range__line2 {
+              background: #2874f0;
+              top: 4px;
+              height: 6px;
+              display: inline-block;
+              position: absolute;
+              width: 100%; }
+          .content .sidebar__associate__content__3__limit {
+            color: #a3a3a3;
+            font-size: 14px;
+            margin: 30px -4px 0;
+            display: flex;
+            justify-content: stretch; }
+            .content .sidebar__associate__content__3__limit__box1 {
+              display: inline-block;
+              flex-grow: 2; }
+              .content .sidebar__associate__content__3__limit__box1__min {
+                width: 100%;
+                border: 1px solid #e0e0e0;
+                border-radius: 1px;
+                background: #fff;
+                height: 33px;
+                font-size: 14px;
+                color: #212121;
+                line-height: 1;
+                padding: 0 5px;
+                appearance: none;
+                -webkit-appearance: none;
+                outline: none;
+                background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
+            .content .sidebar__associate__content__3__limit__to {
+              display: inline-block;
+              margin: 3px 9px;
+              font-size: 20px;
+              color: #878787;
+              line-height: 1;
+              flex: 1;
+              text-align: center; }
+            .content .sidebar__associate__content__3__limit__box2 {
+              display: inline-block;
+              flex-grow: 2;
+              margin-left: 1.5px; }
+              .content .sidebar__associate__content__3__limit__box2__min {
+                width: 100%;
+                border: 1px solid #e0e0e0;
+                border-radius: 1px;
+                background: #fff;
+                height: 33px;
+                font-size: 14px;
+                color: #212121;
+                line-height: 1;
+                padding: 0 5px;
+                appearance: none;
+                -webkit-appearance: none;
+                outline: none;
+                background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%; }
+        .content .sidebar__associate__content__4 {
+          display: flex;
+          justify-content: space-between;
+          padding: 16px;
+          border-bottom: 1px solid #f0f0f0;
+          cursor: pointer;
+          width: 100%;
+          box-sizing: border-box;
+          position: relative; }
+          .content .sidebar__associate__content__4__assuredsection {
+            width: 100%;
+            box-sizing: border-box; }
+            .content .sidebar__associate__content__4__assuredsection label {
+              display: flex; }
+            .content .sidebar__associate__content__4__assuredsection .inputBox {
+              display: inline-block;
+              visibility: hidden;
+              position: absolute;
+              top: 0;
+              left: 0;
+              vertical-align: top !important;
+              cursor: pointer; }
+            .content .sidebar__associate__content__4__assuredsection .inputBox1 {
+              position: relative;
+              width: 14px;
+              height: 14px;
+              background-color: transparent;
+              border: 1.4px solid #c2c2c2;
+              border-radius: 1.5px;
+              display: inline-block;
+              vertical-align: middle;
+              cursor: pointer; }
+            .content .sidebar__associate__content__4__assuredsection .inputBox1:before {
+              position: absolute;
+              content: "";
+              left: 5px;
+              top: 2px;
+              width: 4px;
+              height: 8px;
+              border: solid #fff;
+              border-width: 0 2px 2px 0;
+              transform: rotate(45deg);
+              backface-visibility: hidden;
+              cursor: pointer; }
+            .content .sidebar__associate__content__4__assuredsection .inputBox[type="checkbox"]:checked + .inputBox1 {
+              background: #2874f0;
+              border: 1.4px solid #2874f0; }
+            .content .sidebar__associate__content__4__assuredsection .assuredlogo {
+              padding-left: 0 10px;
+              font-size: 16px;
+              padding-left: 11px;
+              display: inline-block;
+              width: calc(100%-25px);
+              overflow: hidden;
+              text-overflow: ellipsis;
+              line-height: 1;
+              cursor: pointer;
+              font-weight: 500; }
+          .content .sidebar__associate__content__4__help__question {
+            border-radius: 50%;
+            background: #fff;
+            color: #878787;
+            font-weight: 600;
+            width: 18px;
+            height: 18px;
+            font-size: 11px;
+            line-height: 16px;
+            text-align: center;
             display: inline-block;
-            stroke-width: 0;
-            stroke: currentColor;
-            fill: currentColor; }
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+            vertical-align: middle;
+            margin: 0 2px 0 8px;
+            cursor: pointer; }
+        .content .sidebar__associate__content__5 {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          border-bottom: 1px solid #f0f0f0; }
+          .content .sidebar__associate__content__5__titlesection {
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            margin: -16px;
+            padding: 16px; }
+            .content .sidebar__associate__content__5__titlesection__title {
+              padding-bottom: 10px;
+              font-size: 13px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.3px;
+              display: inline-block;
+              width: 95%;
+              cursor: pointer; }
+            .content .sidebar__associate__content__5__titlesection .icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+          .content .sidebar__associate__content__5__contentsection__content {
+            margin: 7px 0;
+            box-sizing: content-box;
+            padding-top: 20px; }
+            .content .sidebar__associate__content__5__contentsection__content__1 {
+              margin-bottom: 20px;
+              position: relative; }
+              .content .sidebar__associate__content__5__contentsection__content__1__input {
+                width: 90%;
+                border-width: 0 0 2px;
+                border-color: #e0e0e0;
+                height: 20px;
+                font-size: 14px;
+                padding: 0 0 0 21px;
+                color: red;
+                outline: none; }
+              .content .sidebar__associate__content__5__contentsection__content__1 .icon {
+                position: absolute;
+                z-index: 1; }
+            .content .sidebar__associate__content__5__contentsection__content__2, .content .sidebar__associate__content__5__contentsection__content__3, .content .sidebar__associate__content__5__contentsection__content__4, .content .sidebar__associate__content__5__contentsection__content__5, .content .sidebar__associate__content__5__contentsection__content__6, .content .sidebar__associate__content__5__contentsection__content__7 {
+              padding-bottom: 18px;
+              margin-top: 10px; }
+              .content .sidebar__associate__content__5__contentsection__content__2__brandsection, .content .sidebar__associate__content__5__contentsection__content__3__brandsection, .content .sidebar__associate__content__5__contentsection__content__4__brandsection, .content .sidebar__associate__content__5__contentsection__content__5__brandsection, .content .sidebar__associate__content__5__contentsection__content__6__brandsection, .content .sidebar__associate__content__5__contentsection__content__7__brandsection {
+                width: 100%;
+                box-sizing: border-box;
+                position: relative; }
+                .content .sidebar__associate__content__5__contentsection__content__2__brandsection label, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label {
+                  display: flex;
+                  position: absolute; }
+                  .content .sidebar__associate__content__5__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .inputBox {
+                    display: inline-block;
+                    visibility: hidden;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    vertical-align: top !important;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__5__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .divcheckbox {
+                    position: relative;
+                    width: 14px;
+                    height: 14px;
+                    background-color: transparent;
+                    border: 1.4px solid #c2c2c2;
+                    border-radius: 1.5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__5__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .divcheckbox:before {
+                    position: absolute;
+                    content: "";
+                    left: 5px;
+                    top: 2px;
+                    width: 4px;
+                    height: 8px;
+                    border: solid #fff;
+                    border-width: 0 2px 2px 0;
+                    transform: rotate(45deg);
+                    backface-visibility: hidden;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__5__contentsection__content__2__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox {
+                    background: #2874f0;
+                    border: 1.4px solid #2874f0; }
+                  .content .sidebar__associate__content__5__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .brand {
+                    padding-left: 0 10px;
+                    font-size: 16px;
+                    padding-left: 11px;
+                    display: inline-block;
+                    width: calc(100%-25px);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    line-height: 1;
+                    cursor: pointer;
+                    font-weight: 500; }
+          .content .sidebar__associate__content__5__contentsection__more {
+            font-size: 14px;
+            font-weight: 700;
+            color: #2874f0;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-top: 9px;
+            padding-bottom: 10px; }
+        .content .sidebar__associate__content__6 {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          border-bottom: 1px solid #f0f0f0; }
+          .content .sidebar__associate__content__6__titlesection {
+            width: 90%;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            margin: -16px;
+            padding: 16px; }
+            .content .sidebar__associate__content__6__titlesection__title {
+              padding-bottom: 10px;
+              font-size: 13px;
+              font-weight: 600;
+              text-transform: uppercase;
+              letter-spacing: 0.3px;
+              display: inline-block;
+              width: 95%;
+              cursor: pointer; }
+            .content .sidebar__associate__content__6__titlesection .icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor; }
+          .content .sidebar__associate__content__6__contentsection__content {
+            margin: 7px 0;
+            box-sizing: content-box;
+            padding-top: 20px; }
+            .content .sidebar__associate__content__6__contentsection__content__1 {
+              margin-bottom: 20px;
+              position: relative; }
+              .content .sidebar__associate__content__6__contentsection__content__1__input {
+                width: 90%;
+                border-width: 0 0 2px;
+                border-color: #e0e0e0;
+                height: 20px;
+                font-size: 14px;
+                padding: 0 0 0 21px;
+                color: red;
+                outline: none; }
+              .content .sidebar__associate__content__6__contentsection__content__1 .icon {
+                position: absolute;
+                z-index: 1; }
+            .content .sidebar__associate__content__6__contentsection__content__2, .content .sidebar__associate__content__6__contentsection__content__3, .content .sidebar__associate__content__6__contentsection__content__4, .content .sidebar__associate__content__6__contentsection__content__5, .content .sidebar__associate__content__6__contentsection__content__6, .content .sidebar__associate__content__6__contentsection__content__7 {
+              padding-bottom: 18px;
+              margin-top: 10px; }
+              .content .sidebar__associate__content__6__contentsection__content__2__brandsection, .content .sidebar__associate__content__6__contentsection__content__3__brandsection, .content .sidebar__associate__content__6__contentsection__content__4__brandsection, .content .sidebar__associate__content__6__contentsection__content__5__brandsection, .content .sidebar__associate__content__6__contentsection__content__6__brandsection, .content .sidebar__associate__content__6__contentsection__content__7__brandsection {
+                width: 100%;
+                box-sizing: border-box;
+                position: relative; }
+                .content .sidebar__associate__content__6__contentsection__content__2__brandsection label, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label {
+                  display: flex;
+                  position: absolute; }
+                  .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .inputBox {
+                    display: inline-block;
+                    visibility: hidden;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    vertical-align: top !important;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .divcheckbox {
+                    position: relative;
+                    width: 14px;
+                    height: 14px;
+                    background-color: transparent;
+                    border: 1.4px solid #c2c2c2;
+                    border-radius: 1.5px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .divcheckbox:before {
+                    position: absolute;
+                    content: "";
+                    left: 5px;
+                    top: 2px;
+                    width: 4px;
+                    height: 8px;
+                    border: solid #fff;
+                    border-width: 0 2px 2px 0;
+                    transform: rotate(45deg);
+                    backface-visibility: hidden;
+                    cursor: pointer; }
+                  .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .inputBox[type="checkbox"]:checked + .divcheckbox {
+                    background: #2874f0;
+                    border: 1.4px solid #2874f0; }
+                  .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .brand {
+                    padding-left: 0 10px;
+                    font-size: 16px;
+                    padding-left: 11px;
+                    display: inline-block;
+                    width: calc(100%-25px);
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    line-height: 1;
+                    cursor: pointer;
+                    font-weight: 500; }
+          .content .sidebar__associate__content__6__contentsection__more {
+            font-size: 14px;
+            font-weight: 700;
+            color: #2874f0;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-top: 9px;
+            padding-bottom: 10px; }
 
 .recommend {
   height: 10vh;

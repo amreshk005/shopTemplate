@@ -52,3 +52,93 @@
   outline: none;
   background: #fff url("../images/cheveron-down.svg") no-repeat 90% 50%;
 }
+
+@mixin icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+@mixin input {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: top !important;
+  cursor: pointer;
+}
+
+@mixin divcheckbox {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: 1.4px solid #c2c2c2;
+  border-radius: 1.5px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+@mixin divcheckboxbefore {
+  position: absolute;
+  content: "";
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  backface-visibility: hidden;
+  // display: none;
+  cursor: pointer;
+}
+
+@mixin brandtag {
+  padding-left: 0 10px;
+  font-size: 16px;
+  padding-left: 11px;
+  display: inline-block;
+  width: calc(100%-25px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@mixin sidebar_checkbox_brand_section {
+  padding-bottom: 18px;
+  margin-top: 10px;
+
+  &__brandsection {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+    label {
+      display: flex;
+      position: absolute;
+
+      .inputBox {
+        @include input;
+      }
+      .divcheckbox {
+        @include divcheckbox;
+      }
+      .divcheckbox:before {
+        @include divcheckboxbefore;
+      }
+      .inputBox[type="checkbox"]:checked + .divcheckbox {
+        background: #2874f0;
+        border: 1.4px solid#2874f0;
+      }
+      .brand {
+        @include brandtag;
+      }
+    }
+  }
+}
