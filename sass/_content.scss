@@ -250,7 +250,15 @@
             }
           }
         }
-        &__5 {
+        &__5,
+        &__6,
+        &__7,
+        &__8,
+        &__9,
+        &__10,
+        &__11,
+        &__12,
+        &__13 {
           width: 100%;
           padding: 10px;
           box-sizing: border-box;
@@ -311,83 +319,8 @@
               &__4,
               &__5,
               &__6,
-              &__7 {
-                @include sidebar_checkbox_brand_section;
-              }
-            }
-            &__more {
-              font-size: 14px;
-              font-weight: 700;
-              color: #2874f0;
-              text-transform: uppercase;
-              cursor: pointer;
-              margin-top: 9px;
-              padding-bottom: 10px;
-            }
-          }
-        }
-        &__6 {
-          width: 100%;
-          padding: 10px;
-          box-sizing: border-box;
-          border-bottom: 1px solid #f0f0f0;
-
-          &__titlesection {
-            width: 90%;
-            position: absolute;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            margin: -16px;
-            padding: 16px;
-            &__title {
-              padding-bottom: 10px;
-              font-size: 13px;
-              font-weight: 600;
-              text-transform: uppercase;
-              letter-spacing: 0.3px;
-              display: inline-block;
-              width: 95%;
-              cursor: pointer;
-            }
-            .icon {
-              display: inline-block;
-              stroke-width: 0;
-              stroke: currentColor;
-              fill: currentColor;
-            }
-          }
-          &__contentsection {
-            &__content {
-              margin: 7px 0;
-              box-sizing: content-box;
-              padding-top: 20px;
-
-              &__1 {
-                margin-bottom: 20px;
-                position: relative;
-                &__input {
-                  width: 90%;
-                  border-width: 0 0 2px;
-                  border-color: #e0e0e0;
-                  height: 20px;
-                  font-size: 14px;
-                  padding: 0 0 0 21px;
-                  color: red;
-                  outline: none;
-                }
-                .icon {
-                  position: absolute;
-                  z-index: 1;
-                }
-              }
-              &__2,
-              &__3,
-              &__4,
-              &__5,
-              &__6,
-              &__7 {
+              &__7,
+              &__8 {
                 @include sidebar_checkbox_brand_section;
               }
             }
