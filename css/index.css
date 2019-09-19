@@ -648,6 +648,8 @@
             color: #2874f0;
             margin-left: auto;
             position: relative; }
+    .content .main .itemsrow__firstrow {
+      border-top: 1px solid #a19f9f; }
     .content .main .itemsrow__firstrow,
     .content .main .itemsrow__secondrow,
     .content .main .itemsrow__thirdrow,
