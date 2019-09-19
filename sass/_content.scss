@@ -345,6 +345,7 @@
     flex-flow: column;
     display: flex;
     padding: 10px;
+    overflow: hidden;
 
     .propertiessection {
       align-items: center;
@@ -453,7 +454,14 @@
     }
     .itemsrow__firstrow,
     .itemsrow__secondrow,
-    .itemsrow__thirdrow {
+    .itemsrow__thirdrow,
+    .itemsrow__fourthrow,
+    .itemsrow__fifthrow,
+    .itemsrow__sixthrow,
+    .itemsrow__sventhrow,
+    .itemsrow__eightrow,
+    .itemsrow__ninethrow,
+    .itemsrow__tenthrow {
       align-content: center;
       width: 100%;
       background: #fff;
@@ -476,9 +484,7 @@
         }
       }
     }
-    .itemsrow__secondrow {
-      z-index: inherit 100;
-    }
+
     .itemsrow__3 {
     }
     .itemsrow__4 {
