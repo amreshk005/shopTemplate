@@ -502,8 +502,8 @@
       &__list {
         width: 50%;
         span {
-          // width: 5%;
           padding: 8px 12px 8px 12px;
+          cursor: pointer;
         }
         .page-1 {
           background: #2874f0;
@@ -516,6 +516,7 @@
         font-size: 16px;
         color: #2874f0;
         font-weight: 600;
+        cursor: pointer;
       }
     }
   }

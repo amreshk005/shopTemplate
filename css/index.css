@@ -899,7 +899,8 @@
               opacity: 1;
               z-index: 1;
               margin: -55px 15px 0 0;
-              opacity: 0.5; }
+              opacity: 0.5;
+              cursor: pointer; }
           .content .main .itemsrow__firstrow__items__firstitem__infosection > *, .content .main .itemsrow__firstrow__items__seconditem__infosection > *, .content .main .itemsrow__firstrow__items__thirditem__infosection > *, .content .main .itemsrow__firstrow__items__fourthitem__infosection > *,
           .content .main .itemsrow__secondrow__items__firstitem__infosection > *,
           .content .main .itemsrow__secondrow__items__seconditem__infosection > *,
@@ -1306,7 +1307,8 @@
                 border-radius: 5px;
                 outline: none;
                 box-shadow: 10px 10px 10px 10px whitesmoke;
-                text-align: center; }
+                text-align: center;
+                cursor: pointer; }
           .content .main .itemsrow__firstrow__items__firstitem__infosection:hover, .content .main .itemsrow__firstrow__items__firstitem__infosection:visited, .content .main .itemsrow__firstrow__items__firstitem__infosection:active, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover, .content .main .itemsrow__firstrow__items__seconditem__infosection:visited, .content .main .itemsrow__firstrow__items__seconditem__infosection:active, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover, .content .main .itemsrow__firstrow__items__thirditem__infosection:visited, .content .main .itemsrow__firstrow__items__thirditem__infosection:active, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover, .content .main .itemsrow__firstrow__items__fourthitem__infosection:visited, .content .main .itemsrow__firstrow__items__fourthitem__infosection:active,
           .content .main .itemsrow__secondrow__items__firstitem__infosection:hover,
           .content .main .itemsrow__secondrow__items__firstitem__infosection:visited,
@@ -1582,7 +1584,8 @@
       .content .main .itemsrow__pagination__list {
         width: 50%; }
         .content .main .itemsrow__pagination__list span {
-          padding: 8px 12px 8px 12px; }
+          padding: 8px 12px 8px 12px;
+          cursor: pointer; }
         .content .main .itemsrow__pagination__list .page-1 {
           background: #2874f0;
           border-radius: 50%;
@@ -1591,7 +1594,8 @@
       .content .main .itemsrow__pagination__next {
         font-size: 16px;
         color: #2874f0;
-        font-weight: 600; }
+        font-weight: 600;
+        cursor: pointer; }
 
 .recommend {
   height: 10vh;

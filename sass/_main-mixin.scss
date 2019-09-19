@@ -61,6 +61,7 @@
       z-index: 1;
       margin: -55px 15px 0 0;
       opacity: 0.5;
+      cursor: pointer;
     }
   }
   &__infosection > * {
@@ -117,6 +118,7 @@
       margin-top: 10px;
       transition: all 1s ease-in-out;
       opacity: 0;
+
       .cartbtn {
         height: 100%;
         width: 100%;
@@ -126,6 +128,7 @@
         outline: none;
         box-shadow: 10px 10px 10px 10px whitesmoke;
         text-align: center;
+        cursor: pointer;
       }
     }
   }
