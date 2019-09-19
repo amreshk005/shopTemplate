@@ -1,0 +1,12 @@
+@mixin pathnav {
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #878787;
+  font-size: 14px;
+  padding-left: 10px;
+}

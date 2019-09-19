@@ -1,8 +1,9 @@
 @import "./mixins";
+@import "./main-mixin";
 .content {
   width: 100vw;
   min-height: 100vh;
-  background: rgb(243, 113, 96);
+  background: whitesmoke;
   color: #242424;
   display: flex;
   .sidebar {
@@ -336,6 +337,225 @@
           }
         }
       }
+    }
+  }
+  .main {
+    flex-grow: 1;
+    overflow: auto;
+    flex-flow: column;
+    display: flex;
+    padding: 10px;
+
+    .propertiessection {
+      align-items: center;
+      display: flex;
+      flex-flow: row;
+      width: 100%;
+      background: #fff;
+      &__property {
+        flex-grow: 1;
+        overflow: auto;
+
+        &__items {
+          background: #fff;
+          padding: 12px 16px 0;
+          border-bottom: 1px solid hsl(0, 0%, 94%);
+          height: 100%;
+          min-height: 72px;
+          &__1 {
+            box-sizing: border-box;
+            display: flex;
+            flex-flow: row;
+            &__Home {
+              .home {
+                @include pathnav;
+              }
+            }
+            &__BagsWallet {
+              .Bags_Back {
+                @include pathnav;
+              }
+            }
+            &__Bags {
+              .Bags {
+                @include pathnav;
+              }
+            }
+          }
+          &__2 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 8px;
+            display: inline-block;
+          }
+          &__3 {
+            display: flex;
+            align-content: center;
+          }
+          &__3 > * {
+            border-bottom: 2px solid transparent;
+            display: inline-block;
+            font-size: 500;
+            padding: 8px 10px 4px 0;
+          }
+        }
+      }
+      &__location {
+        flex: 0 0 300px;
+        max-width: 275px;
+        background: #fff;
+        border-bottom: 1px solid #f0f0f0;
+        position: relative;
+        padding: 28px 10px 0 0;
+        &__delivery {
+          color: #878787;
+          font-weight: 500;
+          font-size: 12px;
+        }
+        &__input {
+          z-index: 4;
+          position: relative;
+          border-radius: 2px;
+          padding: 0 0 4px;
+          border: none;
+          border-bottom: 2px solid #2874f0;
+          font-weight: 500;
+          display: flex;
+          align-items: center;
+          svg {
+            vertical-align: middle;
+            margin-right: 6px;
+            fill: #2874f0;
+          }
+          &__form {
+            display: inline-block;
+            line-height: 25px;
+            input {
+              font-weight: 500;
+              font-size: 14px;
+              border: none;
+              outline: none;
+              padding: 6px;
+              vertical-align: middle;
+              width: 110px !important;
+            }
+          }
+          &__change {
+            font-weight: 500;
+            cursor: pointer;
+            font-size: 14px;
+            color: #2874f0;
+            margin-left: auto;
+            position: relative;
+          }
+        }
+      }
+    }
+    .itemsrow__firstrow {
+      align-content: center;
+      width: 100%;
+      background: #fff;
+      &__items {
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        &__firstitem {
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center;
+          width: 25%;
+          height: 100%;
+          position: relative;
+          margin: 5px 0 10px 10px;
+          padding-bottom: 20px;
+          transition: all ease-in-out;
+
+          &__imagesection {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: row-reverse;
+            position: relative;
+            margin-top: 60px;
+
+            &__range {
+              padding-top: 80%;
+
+              &__image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                max-width: 100%;
+                max-height: 100%;
+                transition: opacity 0.5s linear;
+                opacity: 1;
+                margin: auto;
+                margin-left: 10px;
+                margin-bottom: 40px;
+              }
+            }
+            .icon {
+              display: inline-block;
+              stroke-width: 0;
+              stroke: currentColor;
+              fill: currentColor;
+              opacity: 1;
+              z-index: 1;
+              margin-top: -50px;
+              opacity: 0.5;
+            }
+          }
+          &__infosection > * {
+            padding: 4px 20px 0 15px;
+          }
+
+          &__infosection {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            color: #878787;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.6s ease-out;
+
+            &__name {
+              text-transform: uppercase;
+            }
+            &__colour {
+            }
+            &__assuredlogo {
+              img {
+              }
+            }
+            &__pricesection {
+              display: flex;
+              align-items: center;
+
+              .price {
+                font-weight: 600;
+                color: #000000;
+                padding-right: 10px;
+              }
+            }
+          }
+          &__infosection:hover {
+            transform: translateY(-60px);
+            background: #fff;
+          }
+        }
+        &__firstitem:hover {
+          box-shadow: 0.5px 0.5px 5px 10px whitesmoke;
+        }
+      }
+    }
+    .itemsrow__2 {
+    }
+    .itemsrow__3 {
+    }
+    .itemsrow__4 {
     }
   }
 }
