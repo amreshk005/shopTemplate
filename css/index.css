@@ -647,15 +647,28 @@
             color: #2874f0;
             margin-left: auto;
             position: relative; }
-    .content .main .itemsrow__firstrow {
+    .content .main .itemsrow__firstrow,
+    .content .main .itemsrow__secondrow,
+    .content .main .itemsrow__thirdrow {
       align-content: center;
       width: 100%;
-      background: #fff; }
-      .content .main .itemsrow__firstrow__items {
+      background: #fff;
+      max-height: fit-content; }
+      .content .main .itemsrow__firstrow__items,
+      .content .main .itemsrow__secondrow__items,
+      .content .main .itemsrow__thirdrow__items {
         display: flex;
         flex-flow: row;
         width: 100%; }
-        .content .main .itemsrow__firstrow__items__firstitem, .content .main .itemsrow__firstrow__items__seconditem, .content .main .itemsrow__firstrow__items__thirditem, .content .main .itemsrow__firstrow__items__fourthitem {
+        .content .main .itemsrow__firstrow__items__firstitem, .content .main .itemsrow__firstrow__items__seconditem, .content .main .itemsrow__firstrow__items__thirditem, .content .main .itemsrow__firstrow__items__fourthitem,
+        .content .main .itemsrow__secondrow__items__firstitem,
+        .content .main .itemsrow__secondrow__items__seconditem,
+        .content .main .itemsrow__secondrow__items__thirditem,
+        .content .main .itemsrow__secondrow__items__fourthitem,
+        .content .main .itemsrow__thirdrow__items__firstitem,
+        .content .main .itemsrow__thirdrow__items__seconditem,
+        .content .main .itemsrow__thirdrow__items__thirditem,
+        .content .main .itemsrow__thirdrow__items__fourthitem {
           display: flex;
           flex-flow: column;
           justify-content: center;
@@ -663,20 +676,44 @@
           width: 25%;
           height: 100%;
           position: relative;
-          margin: 5px 0 10px 10px;
+          margin: 5px 0 0px 10px;
           padding-bottom: 20px;
           transition: all ease-in-out;
           z-index: 1; }
-          .content .main .itemsrow__firstrow__items__firstitem__imagesection, .content .main .itemsrow__firstrow__items__seconditem__imagesection, .content .main .itemsrow__firstrow__items__thirditem__imagesection, .content .main .itemsrow__firstrow__items__fourthitem__imagesection {
+          .content .main .itemsrow__firstrow__items__firstitem__imagesection, .content .main .itemsrow__firstrow__items__seconditem__imagesection, .content .main .itemsrow__firstrow__items__thirditem__imagesection, .content .main .itemsrow__firstrow__items__fourthitem__imagesection,
+          .content .main .itemsrow__secondrow__items__firstitem__imagesection,
+          .content .main .itemsrow__secondrow__items__seconditem__imagesection,
+          .content .main .itemsrow__secondrow__items__thirditem__imagesection,
+          .content .main .itemsrow__secondrow__items__fourthitem__imagesection,
+          .content .main .itemsrow__thirdrow__items__firstitem__imagesection,
+          .content .main .itemsrow__thirdrow__items__seconditem__imagesection,
+          .content .main .itemsrow__thirdrow__items__thirditem__imagesection,
+          .content .main .itemsrow__thirdrow__items__fourthitem__imagesection {
             width: 100%;
             height: 100%;
             display: flex;
             flex-flow: row-reverse;
             position: relative;
             margin-top: 60px; }
-            .content .main .itemsrow__firstrow__items__firstitem__imagesection__range, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range {
+            .content .main .itemsrow__firstrow__items__firstitem__imagesection__range, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range,
+            .content .main .itemsrow__secondrow__items__firstitem__imagesection__range,
+            .content .main .itemsrow__secondrow__items__seconditem__imagesection__range,
+            .content .main .itemsrow__secondrow__items__thirditem__imagesection__range,
+            .content .main .itemsrow__secondrow__items__fourthitem__imagesection__range,
+            .content .main .itemsrow__thirdrow__items__firstitem__imagesection__range,
+            .content .main .itemsrow__thirdrow__items__seconditem__imagesection__range,
+            .content .main .itemsrow__thirdrow__items__thirditem__imagesection__range,
+            .content .main .itemsrow__thirdrow__items__fourthitem__imagesection__range {
               padding-top: 80%; }
-              .content .main .itemsrow__firstrow__items__firstitem__imagesection__range__image, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range__image {
+              .content .main .itemsrow__firstrow__items__firstitem__imagesection__range__image, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range__image,
+              .content .main .itemsrow__secondrow__items__firstitem__imagesection__range__image,
+              .content .main .itemsrow__secondrow__items__seconditem__imagesection__range__image,
+              .content .main .itemsrow__secondrow__items__thirditem__imagesection__range__image,
+              .content .main .itemsrow__secondrow__items__fourthitem__imagesection__range__image,
+              .content .main .itemsrow__thirdrow__items__firstitem__imagesection__range__image,
+              .content .main .itemsrow__thirdrow__items__seconditem__imagesection__range__image,
+              .content .main .itemsrow__thirdrow__items__thirditem__imagesection__range__image,
+              .content .main .itemsrow__thirdrow__items__fourthitem__imagesection__range__image {
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -689,7 +726,15 @@
                 margin: auto;
                 margin-left: 10px;
                 margin-bottom: 40px; }
-            .content .main .itemsrow__firstrow__items__firstitem__imagesection .icon, .content .main .itemsrow__firstrow__items__seconditem__imagesection .icon, .content .main .itemsrow__firstrow__items__thirditem__imagesection .icon, .content .main .itemsrow__firstrow__items__fourthitem__imagesection .icon {
+            .content .main .itemsrow__firstrow__items__firstitem__imagesection .icon, .content .main .itemsrow__firstrow__items__seconditem__imagesection .icon, .content .main .itemsrow__firstrow__items__thirditem__imagesection .icon, .content .main .itemsrow__firstrow__items__fourthitem__imagesection .icon,
+            .content .main .itemsrow__secondrow__items__firstitem__imagesection .icon,
+            .content .main .itemsrow__secondrow__items__seconditem__imagesection .icon,
+            .content .main .itemsrow__secondrow__items__thirditem__imagesection .icon,
+            .content .main .itemsrow__secondrow__items__fourthitem__imagesection .icon,
+            .content .main .itemsrow__thirdrow__items__firstitem__imagesection .icon,
+            .content .main .itemsrow__thirdrow__items__seconditem__imagesection .icon,
+            .content .main .itemsrow__thirdrow__items__thirditem__imagesection .icon,
+            .content .main .itemsrow__thirdrow__items__fourthitem__imagesection .icon {
               display: inline-block;
               stroke-width: 0;
               stroke: currentColor;
@@ -698,9 +743,25 @@
               z-index: 1;
               margin: -55px 15px 0 0;
               opacity: 0.5; }
-          .content .main .itemsrow__firstrow__items__firstitem__infosection > *, .content .main .itemsrow__firstrow__items__seconditem__infosection > *, .content .main .itemsrow__firstrow__items__thirditem__infosection > *, .content .main .itemsrow__firstrow__items__fourthitem__infosection > * {
+          .content .main .itemsrow__firstrow__items__firstitem__infosection > *, .content .main .itemsrow__firstrow__items__seconditem__infosection > *, .content .main .itemsrow__firstrow__items__thirditem__infosection > *, .content .main .itemsrow__firstrow__items__fourthitem__infosection > *,
+          .content .main .itemsrow__secondrow__items__firstitem__infosection > *,
+          .content .main .itemsrow__secondrow__items__seconditem__infosection > *,
+          .content .main .itemsrow__secondrow__items__thirditem__infosection > *,
+          .content .main .itemsrow__secondrow__items__fourthitem__infosection > *,
+          .content .main .itemsrow__thirdrow__items__firstitem__infosection > *,
+          .content .main .itemsrow__thirdrow__items__seconditem__infosection > *,
+          .content .main .itemsrow__thirdrow__items__thirditem__infosection > *,
+          .content .main .itemsrow__thirdrow__items__fourthitem__infosection > * {
             padding: 4px 20px 0 15px; }
-          .content .main .itemsrow__firstrow__items__firstitem__infosection, .content .main .itemsrow__firstrow__items__seconditem__infosection, .content .main .itemsrow__firstrow__items__thirditem__infosection, .content .main .itemsrow__firstrow__items__fourthitem__infosection {
+          .content .main .itemsrow__firstrow__items__firstitem__infosection, .content .main .itemsrow__firstrow__items__seconditem__infosection, .content .main .itemsrow__firstrow__items__thirditem__infosection, .content .main .itemsrow__firstrow__items__fourthitem__infosection,
+          .content .main .itemsrow__secondrow__items__firstitem__infosection,
+          .content .main .itemsrow__secondrow__items__seconditem__infosection,
+          .content .main .itemsrow__secondrow__items__thirditem__infosection,
+          .content .main .itemsrow__secondrow__items__fourthitem__infosection,
+          .content .main .itemsrow__thirdrow__items__firstitem__infosection,
+          .content .main .itemsrow__thirdrow__items__seconditem__infosection,
+          .content .main .itemsrow__thirdrow__items__thirditem__infosection,
+          .content .main .itemsrow__thirdrow__items__fourthitem__infosection {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -708,33 +769,174 @@
             font-size: 14px;
             font-weight: 500;
             transition: all 0.6s ease-out;
-            z-index: 0; }
-            .content .main .itemsrow__firstrow__items__firstitem__infosection__name, .content .main .itemsrow__firstrow__items__seconditem__infosection__name, .content .main .itemsrow__firstrow__items__thirditem__infosection__name, .content .main .itemsrow__firstrow__items__fourthitem__infosection__name {
+            z-index: 0;
+            margin-top: -4.5rem;
+            transform: translateY(40%); }
+            .content .main .itemsrow__firstrow__items__firstitem__infosection__name, .content .main .itemsrow__firstrow__items__seconditem__infosection__name, .content .main .itemsrow__firstrow__items__thirditem__infosection__name, .content .main .itemsrow__firstrow__items__fourthitem__infosection__name,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection__name,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection__name,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection__name,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection__name,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection__name,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection__name,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection__name,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection__name {
               text-transform: uppercase; }
-            .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection {
+            .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection {
               display: flex;
               align-items: center; }
-              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .price {
+              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .price,
+              .content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .price,
+              .content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .price,
+              .content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .price,
+              .content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .price,
+              .content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .price,
+              .content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .price,
+              .content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .price,
+              .content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .price {
                 font-weight: 600;
                 color: #000000;
                 padding-right: 10px; }
-              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice {
+              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .actualprice,
+              .content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .actualprice {
                 position: relative; }
-                .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice .cutoff {
+                .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+                .content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .actualprice .cutoff {
                   position: absolute;
                   border: 1px solid #878787;
                   width: 27px;
                   margin-top: -10px;
                   z-index: 2; }
-              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .off {
+              .content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .off,
+              .content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .off,
+              .content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .off,
+              .content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .off,
+              .content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .off,
+              .content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .off,
+              .content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .off,
+              .content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .off,
+              .content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .off {
                 color: green;
                 font-weight: 600;
                 padding-left: 10px; }
-          .content .main .itemsrow__firstrow__items__firstitem__infosection:hover, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover {
-            transform: translateY(-60px);
+            .content .main .itemsrow__firstrow__items__firstitem__infosection .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection .addtocart,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection .addtocart,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection .addtocart,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection .addtocart,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection .addtocart,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection .addtocart,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection .addtocart,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection .addtocart,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection .addtocart {
+              height: 2rem;
+              margin-top: 10px;
+              transition: all 1s ease-in-out;
+              opacity: 0;
+              z-index: 0; }
+              .content .main .itemsrow__firstrow__items__firstitem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__seconditem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__thirditem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__fourthitem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__secondrow__items__firstitem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__secondrow__items__seconditem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__secondrow__items__thirditem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__secondrow__items__fourthitem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__thirdrow__items__firstitem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__thirdrow__items__seconditem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__thirdrow__items__thirditem__infosection .addtocart .cartbtn,
+              .content .main .itemsrow__thirdrow__items__fourthitem__infosection .addtocart .cartbtn {
+                height: 100%;
+                width: 100%;
+                font-size: 14px;
+                background-image: linear-gradient(to right bottom, #2874f0, #2874f0);
+                border-radius: 5px;
+                outline: none;
+                box-shadow: 10px 10px 10px 10px whitesmoke;
+                text-align: center; }
+          .content .main .itemsrow__firstrow__items__firstitem__infosection:hover, .content .main .itemsrow__firstrow__items__firstitem__infosection:visited, .content .main .itemsrow__firstrow__items__firstitem__infosection:active, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover, .content .main .itemsrow__firstrow__items__seconditem__infosection:visited, .content .main .itemsrow__firstrow__items__seconditem__infosection:active, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover, .content .main .itemsrow__firstrow__items__thirditem__infosection:visited, .content .main .itemsrow__firstrow__items__thirditem__infosection:active, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover, .content .main .itemsrow__firstrow__items__fourthitem__infosection:visited, .content .main .itemsrow__firstrow__items__fourthitem__infosection:active,
+          .content .main .itemsrow__secondrow__items__firstitem__infosection:hover,
+          .content .main .itemsrow__secondrow__items__firstitem__infosection:visited,
+          .content .main .itemsrow__secondrow__items__firstitem__infosection:active,
+          .content .main .itemsrow__secondrow__items__seconditem__infosection:hover,
+          .content .main .itemsrow__secondrow__items__seconditem__infosection:visited,
+          .content .main .itemsrow__secondrow__items__seconditem__infosection:active,
+          .content .main .itemsrow__secondrow__items__thirditem__infosection:hover,
+          .content .main .itemsrow__secondrow__items__thirditem__infosection:visited,
+          .content .main .itemsrow__secondrow__items__thirditem__infosection:active,
+          .content .main .itemsrow__secondrow__items__fourthitem__infosection:hover,
+          .content .main .itemsrow__secondrow__items__fourthitem__infosection:visited,
+          .content .main .itemsrow__secondrow__items__fourthitem__infosection:active,
+          .content .main .itemsrow__thirdrow__items__firstitem__infosection:hover,
+          .content .main .itemsrow__thirdrow__items__firstitem__infosection:visited,
+          .content .main .itemsrow__thirdrow__items__firstitem__infosection:active,
+          .content .main .itemsrow__thirdrow__items__seconditem__infosection:hover,
+          .content .main .itemsrow__thirdrow__items__seconditem__infosection:visited,
+          .content .main .itemsrow__thirdrow__items__seconditem__infosection:active,
+          .content .main .itemsrow__thirdrow__items__thirditem__infosection:hover,
+          .content .main .itemsrow__thirdrow__items__thirditem__infosection:visited,
+          .content .main .itemsrow__thirdrow__items__thirditem__infosection:active,
+          .content .main .itemsrow__thirdrow__items__fourthitem__infosection:hover,
+          .content .main .itemsrow__thirdrow__items__fourthitem__infosection:visited,
+          .content .main .itemsrow__thirdrow__items__fourthitem__infosection:active {
+            transform: translateY(-10px);
             background: #fff; }
-        .content .main .itemsrow__firstrow__items__firstitem:hover, .content .main .itemsrow__firstrow__items__seconditem:hover, .content .main .itemsrow__firstrow__items__thirditem:hover, .content .main .itemsrow__firstrow__items__fourthitem:hover {
+            .content .main .itemsrow__firstrow__items__firstitem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__firstitem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__firstitem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:active .addtocart,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection:hover .addtocart,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection:visited .addtocart,
+            .content .main .itemsrow__secondrow__items__firstitem__infosection:active .addtocart,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection:hover .addtocart,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection:visited .addtocart,
+            .content .main .itemsrow__secondrow__items__seconditem__infosection:active .addtocart,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection:hover .addtocart,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection:visited .addtocart,
+            .content .main .itemsrow__secondrow__items__thirditem__infosection:active .addtocart,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection:hover .addtocart,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection:visited .addtocart,
+            .content .main .itemsrow__secondrow__items__fourthitem__infosection:active .addtocart,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection:hover .addtocart,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection:visited .addtocart,
+            .content .main .itemsrow__thirdrow__items__firstitem__infosection:active .addtocart,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection:hover .addtocart,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection:visited .addtocart,
+            .content .main .itemsrow__thirdrow__items__seconditem__infosection:active .addtocart,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection:hover .addtocart,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection:visited .addtocart,
+            .content .main .itemsrow__thirdrow__items__thirditem__infosection:active .addtocart,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection:hover .addtocart,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection:visited .addtocart,
+            .content .main .itemsrow__thirdrow__items__fourthitem__infosection:active .addtocart {
+              opacity: 1; }
+        .content .main .itemsrow__firstrow__items__firstitem:hover, .content .main .itemsrow__firstrow__items__seconditem:hover, .content .main .itemsrow__firstrow__items__thirditem:hover, .content .main .itemsrow__firstrow__items__fourthitem:hover,
+        .content .main .itemsrow__secondrow__items__firstitem:hover,
+        .content .main .itemsrow__secondrow__items__seconditem:hover,
+        .content .main .itemsrow__secondrow__items__thirditem:hover,
+        .content .main .itemsrow__secondrow__items__fourthitem:hover,
+        .content .main .itemsrow__thirdrow__items__firstitem:hover,
+        .content .main .itemsrow__thirdrow__items__seconditem:hover,
+        .content .main .itemsrow__thirdrow__items__thirditem:hover,
+        .content .main .itemsrow__thirdrow__items__fourthitem:hover {
           box-shadow: 0.5px 0.5px 5px 10px whitesmoke; }
+    .content .main .itemsrow__secondrow {
+      z-index: inherit 100; }
 
 .recommend {
   height: 10vh;

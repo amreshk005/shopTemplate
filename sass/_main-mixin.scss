@@ -19,7 +19,7 @@
   width: 25%;
   height: 100%;
   position: relative;
-  margin: 5px 0 10px 10px;
+  margin: 5px 0 0px 10px;
   padding-bottom: 20px;
   transition: all ease-in-out;
   z-index: 1;
@@ -74,7 +74,8 @@
     font-weight: 500;
     transition: all 0.6s ease-out;
     z-index: 0;
-
+    margin-top: -4.5rem;
+    transform: translateY(40%);
     &__name {
       text-transform: uppercase;
     }
@@ -110,9 +111,31 @@
         padding-left: 10px;
       }
     }
+    .addtocart {
+      height: 2rem;
+      margin-top: 10px;
+      transition: all 1s ease-in-out;
+      opacity: 0;
+      z-index: 0;
+      .cartbtn {
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        background-image: linear-gradient(to right bottom, #2874f0, #2874f0);
+        border-radius: 5px;
+        outline: none;
+        box-shadow: 10px 10px 10px 10px whitesmoke;
+        text-align: center;
+      }
+    }
   }
-  &__infosection:hover {
-    transform: translateY(-60px);
+  &__infosection:hover,
+  &__infosection:visited,
+  &__infosection:active {
+    transform: translateY(-10px);
     background: #fff;
+    .addtocart {
+      opacity: 1;
+    }
   }
 }

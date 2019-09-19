@@ -451,10 +451,13 @@
         }
       }
     }
-    .itemsrow__firstrow {
+    .itemsrow__firstrow,
+    .itemsrow__secondrow,
+    .itemsrow__thirdrow {
       align-content: center;
       width: 100%;
       background: #fff;
+      max-height: fit-content;
       &__items {
         display: flex;
         flex-flow: row;
@@ -473,7 +476,8 @@
         }
       }
     }
-    .itemsrow__2 {
+    .itemsrow__secondrow {
+      z-index: inherit 100;
     }
     .itemsrow__3 {
     }
