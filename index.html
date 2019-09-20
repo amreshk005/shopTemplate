@@ -393,20 +393,25 @@
                     class="sidebar__associate__content__3__range__circlesection1"
                   >
                     <div
+                    id="circle1"
                       class="sidebar__associate__content__3__range__circlesection1__circle"
                     ></div>
                   </div>
                   <div
+                    
                     class="sidebar__associate__content__3__range__circlesection2"
                   >
                     <div
+                    id="circle2"
                       class="sidebar__associate__content__3__range__circlesection2__circle"
                     ></div>
                   </div>
                   <div
+                  id="line1"
                     class="sidebar__associate__content__3__range__line1"
                   ></div>
                   <div
+                  id="line2"
                     class="sidebar__associate__content__3__range__line2"
                   ></div>
                 </div>
@@ -3551,4 +3556,90 @@
       </div>
     </div>
   </body>
+  <script>
+    // function makeResizablerange(div){
+      // const element = document.querySelector(div);
+      // const resizers = document.querySelectorAll(div + '#circle2')
+      // for (let i = 0; i< resizers.length; i++){
+      //   const currentResizer = resizers[i];
+      //   currentResizer.addEventListener('mousedown', function(e){
+      //     currentResizer.addEventListener('mousemove', resize)
+      //   })
+      //   function resize(e){
+      //     if(currentResizer.classL)
+      //   }
+      // }
+    // }
+    const circle2 = document.getElementById('circle2');
+    const line1 = document.getElementById('line1');
+    const line2 = document.getElementById('line2');
+
+
+    //line1 listners    
+    line1.addEventListener('mousedown', e => {
+      x = e.clientX;
+      y = e.clientY;
+      console.log("line1,x:" + x);
+      console.log("line1,y:" + y);
+
+    })
+
+// var mychange = function init(){
+  var e;
+  line1.addEventListener('mousemove', myfunction(e))
+  
+  function (myfunction (e) {
+    x3 = e.clientX;
+    y3 = e.clientY;
+    // console.log(x3)
+    return x3;
+  })
+  // }
+  // console.log("mychange:" + mychange);
+
+    
+    //line2 listners
+    line2.addEventListener('mousedown', e => {
+      x = e.clientX;
+      y = e.clientY;
+      console.log("line2,x:" + x);
+      console.log("line2,y:" + y);
+      line2.style.width = "line1.x3"
+      console.log(line1.x3);
+      // console.log("worked:" + line2.style.width);
+
+    })
+
+    line2.addEventListener('mousemove', e => {
+      x = e.clientX;
+      y = e.clientY;
+      console.log("line2,x1:" + x);
+      console.log("line2,y1:" + y);
+
+    })
+
+// circle2 listner
+    // circle2.addEventListener('mousedown', e => {
+    //   x = e.clientX;
+    //   y = e.clientY;
+    //   console.log("circle2,x:" + x);
+    //   console.log("circle2,y:" + y);
+
+    // })
+    
+    // circle2.addEventListener('mousemove', e => {
+    //   x = e.clientX;
+    //   y = e.clientY;
+    //   console.log("circle2,x1:" + x);
+    //   console.log("circle2,y1:" + y);
+    // })
+
+//window listner
+    window.addEventListener('mouseup', e => {
+      x = e.clientX;
+      y = e.clientY;
+      console.log("window,x:" + x);
+      console.log("window,y:" + y);
+    })
+  </script>
 </html>
