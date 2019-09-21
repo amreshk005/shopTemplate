@@ -388,7 +388,9 @@
                     ></div>
                   </div>
                 </div>
-                <div class="sidebar__associate__content__3__range">
+                <div 
+                id="range"
+                class="sidebar__associate__content__3__range">
                   <div
                     class="sidebar__associate__content__3__range__circlesection1"
                   >
@@ -3570,76 +3572,141 @@
       //   }
       // }
     // }
-    const circle2 = document.getElementById('circle2');
-    const line1 = document.getElementById('line1');
-    const line2 = document.getElementById('line2');
 
 
-    //line1 listners    
-    line1.addEventListener('mousedown', e => {
-      x = e.clientX;
-      y = e.clientY;
-      console.log("line1,x:" + x);
-      console.log("line1,y:" + y);
-
-    })
-
-// var mychange = function init(){
-  var e;
-  line1.addEventListener('mousemove', myfunction(e))
   
-  function (myfunction (e) {
-    x3 = e.clientX;
-    y3 = e.clientY;
-    // console.log(x3)
-    return x3;
+const circle1 = document.getElementById('circle1');
+const circle2 = document.getElementById('circle2');
+let line1 = document.getElementById('line1');
+let line2 = document.getElementById('line2');
+let range = document.getElementById('range');
+let line2Width = 248;
+console.log("line2Width:" + line2Width);
+// circle1.style.left = "48px";
+// line2.style.left = "42px";
+// let moved = (248 - 42) + "px";
+// line2.style.width = moved;
+
+function circle1Event() {
+  let ismoving = false;
+    circle1.addEventListener('mousedown', e => {
+      x = e.clientX;
+
+        x1 = x - 26;
+        y = 248 - x1;
+        if (x1 <= 248){
+        ismoving = true;
+        }
+    })
+    
+    circle1.addEventListener('mousemove', e => {
+      if (ismoving == true) {
+      x = e.clientX;
+  
+        x1 = x - 26;
+        y = 248 - x1;
+  
+        if (x1 <= 248 && x>=25){
+        
+        console.log("MOUSEMOVEY: " + y); 
+        let moved = y + "px";
+        let line_changed = x1 + "px";
+        circle1.style.left = moved;
+        line2.style.left = moved;
+        line2.style.width = line_changed;
+        }
+      }
+    })
+    circle1.addEventListener('mouseup', e => {
+      x = e.clientX;
+      ismoving = false;
+
+    })
+
+}
+
+// circle1Event()
+
+  // Range Listners
+function rangeListner() {
+  let ismoving = true;
+
+  range.addEventListener('mousedown', e => {
+    if(ismoving == true){
+      x = e.clientX;
+      console.log(x);
+      x1 = x - 26;
+      y = 248 - x1;
+  
+      if (x1 <= 248 && x>=25){
+      
+      console.log("y: " + y); 
+      let circle_canged = y + "px";
+      let line_changed = x1 + "px";
+      circle2.style.right = circle_canged;
+      line2.style.width = line_changed;
+      
+      
+      
+    }
+  }
   })
-  // }
-  // console.log("mychange:" + mychange);
+range.addEventListener('mouseup', e => {
+    x = e.clientX;
+      // y = e.clientY;
+      
+      x1 = x - 26;
+      y = 248 - x1;
+ 
+  })
 
+}
+
+rangeListner();
+
+
+// Circle2 Listner
+function circle2Event() {
+    let ismoving = false;
+    circle2.addEventListener('mousedown', e => {
+      x = e.clientX;
+
+        x1 = x - 26;
+        y = 248 - x1;
+        if (x1 <= 248){
+        ismoving = true;
+        }
+    })
     
-    //line2 listners
-    line2.addEventListener('mousedown', e => {
+    circle2.addEventListener('mousemove', e => {
+      if (ismoving == true) {
       x = e.clientX;
-      y = e.clientY;
-      console.log("line2,x:" + x);
-      console.log("line2,y:" + y);
-      line2.style.width = "line1.x3"
-      console.log(line1.x3);
-      // console.log("worked:" + line2.style.width);
+  
+        x1 = x - 26;
+        y = 248 - x1;
+  
+        if (x1 <= 248){
+        
+        console.log("MOUSEMOVEY: " + y); 
+        let circle_canged = y + "px";
+        let line_changed = x1 + "px";
+        circle2.style.right = circle_canged;
+        line2.style.width = line_changed;
+        line2Width = line2.style.width; 
+       
+        }
+        console.log("line2Width:" + line2Width);
+      }
+    })
+    circle2.addEventListener('mouseup', e => {
+      x = e.clientX;
+      ismoving = false;
 
     })
-
-    line2.addEventListener('mousemove', e => {
-      x = e.clientX;
-      y = e.clientY;
-      console.log("line2,x1:" + x);
-      console.log("line2,y1:" + y);
-
-    })
-
-// circle2 listner
-    // circle2.addEventListener('mousedown', e => {
-    //   x = e.clientX;
-    //   y = e.clientY;
-    //   console.log("circle2,x:" + x);
-    //   console.log("circle2,y:" + y);
-
-    // })
     
-    // circle2.addEventListener('mousemove', e => {
-    //   x = e.clientX;
-    //   y = e.clientY;
-    //   console.log("circle2,x1:" + x);
-    //   console.log("circle2,y1:" + y);
-    // })
+  }
 
-//window listner
-    window.addEventListener('mouseup', e => {
-      x = e.clientX;
-      y = e.clientY;
-      console.log("window,x:" + x);
-      console.log("window,y:" + y);
-    })
+circle2Event();
+
   </script>
 </html>

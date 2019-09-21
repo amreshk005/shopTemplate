@@ -267,7 +267,8 @@
                 border: 1px solid #bababa;
                 position: absolute;
                 background: #fff;
-                top: 3.5px; }
+                top: 3.5px;
+                background: transparent; }
             .content .sidebar__associate__content__3__range__circlesection2 {
               display: inline-block;
               width: 20px;
@@ -276,7 +277,7 @@
               z-index: 1;
               position: absolute;
               top: -3.5px;
-              right: 206px; }
+              right: -5.5px; }
               .content .sidebar__associate__content__3__range__circlesection2__circle {
                 right: 0;
                 width: 13px;
@@ -286,7 +287,7 @@
                 position: absolute;
                 background: #fff;
                 top: 3.5px;
-                background: yellow; }
+                background: transparent; }
             .content .sidebar__associate__content__3__range__line1 {
               background: #c2c2c2;
               height: 2px;
@@ -300,7 +301,7 @@
               height: 6px;
               display: inline-block;
               position: absolute;
-              width: 60%; }
+              width: 100%; }
           .content .sidebar__associate__content__3__limit {
             color: #a3a3a3;
             font-size: 14px;

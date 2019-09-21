@@ -135,13 +135,14 @@
               @include circlesection(-13.5px, 0px);
               &__circle {
                 @include circle;
+                background: transparent;
               }
             }
             &__circlesection2 {
-              @include circlesection(0, 206px);
+              @include circlesection(0, -5.5px);
               &__circle {
                 @include circle;
-                background: yellow;
+                background: transparent;
               }
             }
             &__line1 {
@@ -160,7 +161,7 @@
               height: 6px;
               display: inline-block;
               position: absolute;
-              width: 60%;
+              width: 100%;
             }
           }
 
