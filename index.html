@@ -3559,20 +3559,6 @@
     </div>
   </body>
   <script>
-    // function makeResizablerange(div){
-      // const element = document.querySelector(div);
-      // const resizers = document.querySelectorAll(div + '#circle2')
-      // for (let i = 0; i< resizers.length; i++){
-      //   const currentResizer = resizers[i];
-      //   currentResizer.addEventListener('mousedown', function(e){
-      //     currentResizer.addEventListener('mousemove', resize)
-      //   })
-      //   function resize(e){
-      //     if(currentResizer.classL)
-      //   }
-      // }
-    // }
-
 
   
 const circle1 = document.getElementById('circle1');
@@ -3581,51 +3567,58 @@ let line1 = document.getElementById('line1');
 let line2 = document.getElementById('line2');
 let range = document.getElementById('range');
 let line2Width = 248;
-console.log("line2Width:" + line2Width);
-// circle1.style.left = "48px";
-// line2.style.left = "42px";
-// let moved = (248 - 42) + "px";
-// line2.style.width = moved;
+// console.log(circle2.getBoundingClientRect());
+// console.log(circle1.getBoundingClientRect());
+// console.log(line1.getBoundingClientRect());
+// console.log(line2.getBoundingClientRect());
+
+
 
 function circle1Event() {
   let ismoving = false;
+  
     circle1.addEventListener('mousedown', e => {
       x = e.clientX;
+      console.log("x is going to changed the position of circle1: " + x);
+      x1 = x - 27.5; 
+      if (x1 <= 280 && x1 > 0){
+      ismoving = true;
+        console.log("ismoving:" + ismoving)
 
-        x1 = x - 26;
-        y = 248 - x1;
-        if (x1 <= 248){
-        ismoving = true;
-        }
+      }
     })
     
     circle1.addEventListener('mousemove', e => {
       if (ismoving == true) {
       x = e.clientX;
-  
-        x1 = x - 26;
-        y = 248 - x1;
-  
-        if (x1 <= 248 && x>=25){
-        
-        console.log("MOUSEMOVEY: " + y); 
-        let moved = y + "px";
-        let line_changed = x1 + "px";
-        circle1.style.left = moved;
-        line2.style.left = moved;
-        line2.style.width = line_changed;
-        }
-      }
-    })
-    circle1.addEventListener('mouseup', e => {
-      x = e.clientX;
-      ismoving = false;
 
+      x1 = x - 17.5;
+      console.log("x1of circle1: " + x1);
+      // if (x1 <= 250 && x1 > 5 && line2.getBoundingClientRect().width > 5){
+      ismoving = true;
+      console.log("circle1_wdth_postion:" + circle1.getBoundingClientRect().left);
+      let line_changed = x1 + "px";
+      console.log(line_changed);
+      circle1.style.left = line_changed;
+      let changed_width = line2.getBoundingClientRect().width - x1;
+      let changed_width_pixel = changed_width + "px";
+      console.log("circle1_wdth_postion_after_changed:" + circle1.getBoundingClientRect().left);
+      // line2.style.width = changed_width_pixel;
+    // } 
+  }
+    })
+    
+    circle1.addEventListener('mouseup', e => {
+     
+      ismoving = false;
+      console.log("ismoving:" + ismoving);
     })
 
 }
 
-// circle1Event()
+circle1Event()
+
+
 
   // Range Listners
 function rangeListner() {
@@ -3634,11 +3627,11 @@ function rangeListner() {
   range.addEventListener('mousedown', e => {
     if(ismoving == true){
       x = e.clientX;
-      console.log(x);
+
       x1 = x - 26;
       y = 248 - x1;
   
-      if (x1 <= 248 && x>=25){
+      if (x1 <= 248 && x1 > 35 && line2.getBoundingClientRect().width){
       
       console.log("y: " + y); 
       let circle_canged = y + "px";
@@ -3653,8 +3646,7 @@ function rangeListner() {
   })
 range.addEventListener('mouseup', e => {
     x = e.clientX;
-      // y = e.clientY;
-      
+
       x1 = x - 26;
       y = 248 - x1;
  
@@ -3683,9 +3675,10 @@ function circle2Event() {
       x = e.clientX;
   
         x1 = x - 26;
-        y = 248 - x1;
-  
-        if (x1 <= 248){
+        y = 248 - x1;  
+        
+        // from right to left position is increasing 
+        if (x1 <= 248 && x1 > 35 && line2.getBoundingClientRect().width > 0 ){
         
         console.log("MOUSEMOVEY: " + y); 
         let circle_canged = y + "px";
