@@ -146,6 +146,7 @@
               }
             }
             &__line1 {
+              position: relative;
               background: #c2c2c2;
               height: 2px;
               position: absolute;
@@ -155,13 +156,16 @@
             }
 
             &__line2 {
+              position: absolute;
               background: #2874f0;
               // transform-origin: left center;
               top: 4px;
               height: 6px;
               display: inline-block;
-              position: absolute;
+
               width: 100%;
+              right: 0;
+              left: 0;
             }
           }
 

@@ -289,6 +289,7 @@
                 top: 3.5px;
                 background: transparent; }
             .content .sidebar__associate__content__3__range__line1 {
+              position: relative;
               background: #c2c2c2;
               height: 2px;
               position: absolute;
@@ -296,12 +297,14 @@
               top: 6px;
               width: 100%; }
             .content .sidebar__associate__content__3__range__line2 {
+              position: absolute;
               background: #2874f0;
               top: 4px;
               height: 6px;
               display: inline-block;
-              position: absolute;
-              width: 100%; }
+              width: 100%;
+              right: 0;
+              left: 0; }
           .content .sidebar__associate__content__3__limit {
             color: #a3a3a3;
             font-size: 14px;

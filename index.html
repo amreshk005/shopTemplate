@@ -3566,47 +3566,75 @@ const circle2 = document.getElementById('circle2');
 let line1 = document.getElementById('line1');
 let line2 = document.getElementById('line2');
 let range = document.getElementById('range');
-let line2Width = 248;
-// console.log(circle2.getBoundingClientRect());
-// console.log(circle1.getBoundingClientRect());
-// console.log(line1.getBoundingClientRect());
-// console.log(line2.getBoundingClientRect());
+var line2_width = 248;
 
+console.log(line2.getBoundingClientRect());
+console.log(circle2.getBoundingClientRect());
+
+circle2.style.left = "5px";
+// line2.style.left = "-20px";
+
+// line2.style.background = "red";
 
 
 function circle1Event() {
   let ismoving = false;
-  
+  let a = [];
+  // let width = line2.getBoundingClientRect().width;
+  // console.log("width: " + width);
     circle1.addEventListener('mousedown', e => {
       x = e.clientX;
-      console.log("x is going to changed the position of circle1: " + x);
-      x1 = x - 27.5; 
-      if (x1 <= 280 && x1 > 0){
-      ismoving = true;
-        console.log("ismoving:" + ismoving)
-
-      }
+      ismoving = true
+ 
     })
+
+
     
     circle1.addEventListener('mousemove', e => {
       if (ismoving == true) {
       x = e.clientX;
-
+      console.log("x of: " + x);
       x1 = x - 17.5;
-      console.log("x1of circle1: " + x1);
-      // if (x1 <= 250 && x1 > 5 && line2.getBoundingClientRect().width > 5){
-      ismoving = true;
-      console.log("circle1_wdth_postion:" + circle1.getBoundingClientRect().left);
-      let line_changed = x1 + "px";
-      console.log(line_changed);
-      circle1.style.left = line_changed;
-      let changed_width = line2.getBoundingClientRect().width - x1;
-      let changed_width_pixel = changed_width + "px";
-      console.log("circle1_wdth_postion_after_changed:" + circle1.getBoundingClientRect().left);
-      // line2.style.width = changed_width_pixel;
-    // } 
+      y1 = x - 24.5;
+
+      // console.log("x1of circle1: " + x1);
+      if (x1 <= 250 && x1 > 5 && line2.getBoundingClientRect().width > 5){
+      if (a.length == 0) {
+        a.push(y1);
+      }else if(a[0] !== y1){
+        a.push(y1);
+      }
+      let circle_left = x1 + "px";
+      let line_left = y1 + "px";
+      // console.log(circle_left);
+      circle1.style.left = circle_left;
+      line2.style.left = line_left;
+      if(a[0] == y1){
+      // this elseif will handle first move.
+      if (line2.getBoundingClientRect().width == 248){
+      line_width = (line2.getBoundingClientRect().width - y1) + "px";
+      console.log("line_width: " +line_width);
+      console.log("pop because it is initial: " + a[0]);
+        
+      } 
+ 
+    }else if(a[0] !== a[1]){
+        line_width = (line2.getBoundingClientRect().width - (a[1] - a[0]) + "px");
+        console.log("line_width am inside else if: " + line_width);
+        if (a.length > 1){
+        a.shift();
+        
+        console.log("pop because it is different: " + a);
+        // console.log("a:" + a);
+        }
+      } 
+
+
+      line2.style.width = line_width;
+    } 
   }
-    })
+  
+  })
     
     circle1.addEventListener('mouseup', e => {
      
@@ -3616,7 +3644,7 @@ function circle1Event() {
 
 }
 
-circle1Event()
+// circle1Event()
 
 
 
@@ -3629,7 +3657,7 @@ function rangeListner() {
       x = e.clientX;
 
       x1 = x - 26;
-      y = 248 - x1;
+      y = line2_width - x1;
   
       if (x1 <= 248 && x1 > 35 && line2.getBoundingClientRect().width){
       
@@ -3639,8 +3667,8 @@ function rangeListner() {
       circle2.style.right = circle_canged;
       line2.style.width = line_changed;
       
-      
-      
+      line2_width = x1;
+      console.log("line2_width: " + line2_width);
     }
   }
   })
@@ -3654,15 +3682,18 @@ range.addEventListener('mouseup', e => {
 
 }
 
-rangeListner();
+// rangeListner();
 
 
 // Circle2 Listner
 function circle2Event() {
     let ismoving = false;
+    let a = [];
+
     circle2.addEventListener('mousedown', e => {
       x = e.clientX;
-
+     
+      console.log("x:" + x)
         x1 = x - 26;
         y = 248 - x1;
         if (x1 <= 248){
@@ -3672,23 +3703,48 @@ function circle2Event() {
     
     circle2.addEventListener('mousemove', e => {
       if (ismoving == true) {
-      x = e.clientX;
-  
-        x1 = x - 26;
-        y = 248 - x1;  
+      x = e.clientX;  // initial x = e.clientX = 275
+   
+        x1 = x - 26;  //  initial x1 = x -26 = 248
+        y = line2.getBoundingClientRect().width - x1;  //y = 248 - 248 = 0 at initial
         
         // from right to left position is increasing 
         if (x1 <= 248 && x1 > 35 && line2.getBoundingClientRect().width > 0 ){
         
-        console.log("MOUSEMOVEY: " + y); 
+        // console.log("MOUSEMOVEY: " + y); 
         let circle_canged = y + "px";
-        let line_changed = x1 + "px";
-        circle2.style.right = circle_canged;
-        line2.style.width = line_changed;
-        line2Width = line2.style.width; 
-       
+        let line_changed = -y + "px";
+        circle2.style.left = line_changed;
+        line2.style.left = line_changed;
+        console.log("line2.style.left: " + line2.style.left);
+        if (a.length == 0) {
+          a.push(-y);
+        }else if(a[0] !== -y){
+          a.push(-y);
         }
-        console.log("line2Width:" + line2Width);
+        console.log("a: " + a);
+        if(a[0] == -y){
+      // this elseif will handle first move.
+      if (line2.getBoundingClientRect().width == 248){
+      line_width = (line2.getBoundingClientRect().width + (-y)) + "px";
+      console.log("line_width: " +line_width);
+      console.log("pop because it is initial: " + a[0]);
+        
+      } 
+ 
+    }else if(a[0] !== a[1]){
+        line_width = (line2.getBoundingClientRect().width + (a[1] - a[0]) + "px");
+        console.log("line_width am inside else if: " + line_width);
+        if (a.length > 1){
+        a.shift();
+        
+        console.log("pop because it is different: " + a);
+        // console.log("a:" + a);
+        }
+      } 
+        line2.style.width = line_width;
+        }
+      
       }
     })
     circle2.addEventListener('mouseup', e => {
