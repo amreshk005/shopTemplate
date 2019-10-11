@@ -2968,6 +2968,21 @@
 
   circle2Event();
 
+  document.querySelector('.sidebar__associate__content__5').addEventListener('click', e => {
+    // document.querySelector('.sidebar__associate__content__5__contentsection').style.display = "none";
+    let current = document.querySelector('.sidebar__associate__content__5__contentsection__content');
+    let more = document.querySelector('.sidebar__associate__content__5__contentsection__more > span');
+
+    console.log(current.style.display);
+    if (current.style.display == 'none'){
+      current.style.display = 'block';
+      more.style.visibility = 'visible';
+    } else{
+      current.style.display = 'none';
+      more.style.visibility = 'hidden';
+    }
+  })
+
 </script>
 
 </html>
