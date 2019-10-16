@@ -1,0 +1,1814 @@
+.navbar-1 {
+  height: 56px;
+  width: 100vw;
+  background: #2874f0;
+  color: #f0f0f0;
+  display: flex;
+  align-items: center;
+}
+.navbar-1__margin {
+  height: 100%;
+  min-width: 124px;
+}
+.navbar-1__content {
+  max-width: 1248px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar-1__content__logosection {
+  min-width: 137px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar-1__content__logosection__logo {
+  height: 20px;
+  width: 75px;
+}
+.navbar-1__content__formsection {
+  height: 100%;
+  min-width: 304px;
+  margin: 0 auto 0 12px;
+  width: calc(100% - 564px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-1__content__formsection__form {
+  display: inline-block;
+  width: 100%;
+  max-width: 564px;
+  height: 36px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.23);
+  position: relative;
+}
+.navbar-1__content__formsection__form__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 2px;
+  background: #fff;
+}
+.navbar-1__content__formsection__form__inner__input {
+  padding: 0 16px;
+  border: 0;
+  outline: none;
+  height: 36px;
+  width: 100%;
+}
+.navbar-1__content__formsection__form__inner__button {
+  border: 1px solid #fff;
+  background-color: #fff;
+  height: 36px;
+  width: 44px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 4px 12px 0 8px;
+  font-size: 17px;
+  color: #2874f0;
+  outline: none;
+}
+.navbar-1__content__Accountsection {
+  flex: 0 0 auto;
+  margin: 0 0rem 0 4rem;
+  max-width: 150px;
+}
+.navbar-1__content__Accountsection__Account__myAccount {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-1__content__MoreSection {
+  flex: 0 0 auto;
+  margin: 0 1rem 0 2rem;
+}
+.navbar-1__content__MoreSection__More__myMore {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-1__content__MyCartSection {
+  flex: 0 0 auto;
+  margin: 0 4rem 0 2rem;
+}
+.navbar-1__content__MyCartSection__Cart {
+  height: 100%;
+  width: 62px;
+}
+.navbar-1__content__MyCartSection__Cart__myCart {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-1__content__MyCartSection__Cart__myCart__icon {
+  display: inline-block;
+  position: relative;
+}
+.navbar-1__content__MyCartSection__Cart__myCart__icon .icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.navbar-1__content__MyCartSection__Cart__myCart__icon__notifications {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 40%;
+  background: red;
+  z-index: 7;
+  margin: -35px 0 0 7px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+.navbar-1__margin1 {
+  height: 100%;
+  min-width: 124px;
+}
+
+.navbar-2 {
+  min-height: 40px;
+  width: 100vw;
+  color: black;
+  text-align: center;
+}
+.navbar-2__menu {
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 1248px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  font-weight: 600;
+}
+.navbar-2__menu li {
+  list-style: none;
+}
+.navbar-2__menu li > * {
+  padding: 12px 10px 9px;
+  font-weight: 600;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  color: #212121;
+}
+
+.content {
+  width: 100vw;
+  min-height: 100vh;
+  background: whitesmoke;
+  color: #242424;
+  display: flex;
+}
+.content .sidebar {
+  flex: 0 0 280px;
+  max-width: 280px;
+  padding: 10px 10px 0px 10px;
+  flex-flow: column;
+  background: whitesmoke;
+}
+.content .sidebar__associate {
+  position: relative;
+  background: #fff;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+}
+.content .sidebar__associate__content {
+  max-width: 280px;
+}
+.content .sidebar__associate__content__1 {
+  padding-bottom: 12px;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.content .sidebar__associate__content__1__filters {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 67%;
+  color: #242424;
+  letter-spacing: 0.3px;
+}
+.content .sidebar__associate__content__2 {
+  font-size: 16px;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.content .sidebar__associate__content__2__categories {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 5px;
+}
+.content .sidebar__associate__content__2__categories1__items {
+  padding: 5px 0;
+  color: #878787;
+  white-space: nowrap;
+}
+.content .sidebar__associate__content__2__categories1__items span.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.content .sidebar__associate__content__2__categories1__items a {
+  color: #212121;
+  text-decoration: none;
+}
+.content .sidebar__associate__content__2__categories2__items {
+  padding: 5px 0;
+  color: #878787;
+  white-space: nowrap;
+}
+.content .sidebar__associate__content__2__categories2__items span.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.content .sidebar__associate__content__2__categories2__items a {
+  color: #212121;
+  text-decoration: none;
+}
+.content .sidebar__associate__content__2__categories3__items {
+  padding: 5px 0;
+  color: #212121;
+  white-space: nowrap;
+}
+.content .sidebar__associate__content__2__categories3__items span.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.content .sidebar__associate__content__2__categories3__items a {
+  color: #212121;
+  text-decoration: none;
+  font-weight: bold;
+}
+.content .sidebar__associate__content__3 {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.content .sidebar__associate__content__3__price {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  display: inline-block;
+}
+.content .sidebar__associate__content__3__mapsection {
+  height: 29px;
+  letter-spacing: -3.5px;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+}
+.content .sidebar__associate__content__3__mapsection__map {
+  height: 100%;
+  position: relative;
+  bottom: -6px;
+}
+.content .sidebar__associate__content__3__mapsection__map > * {
+  background: #e0e0e0;
+  display: inline-block;
+}
+.content .sidebar__associate__content__3__range {
+  height: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__3__range__circlesection1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: -3.5px;
+  left: -13.5px;
+}
+.content .sidebar__associate__content__3__range__circlesection1__circle {
+  right: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #bababa;
+  position: absolute;
+  background: #fff;
+  top: 3.5px;
+  background: transparent;
+}
+.content .sidebar__associate__content__3__range__circlesection2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  top: -3.5px;
+  right: -5.5px;
+}
+.content .sidebar__associate__content__3__range__circlesection2__circle {
+  right: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #bababa;
+  position: absolute;
+  background: #fff;
+  top: 3.5px;
+  background: transparent;
+}
+.content .sidebar__associate__content__3__range__line1 {
+  position: relative;
+  background: #c2c2c2;
+  height: 2px;
+  position: absolute;
+  display: inline-block;
+  top: 6px;
+  width: 100%;
+}
+.content .sidebar__associate__content__3__range__line2 {
+  position: absolute;
+  background: #2874f0;
+  top: 4px;
+  height: 6px;
+  display: inline-block;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.content .sidebar__associate__content__3__limit {
+  color: #a3a3a3;
+  font-size: 14px;
+  margin: 30px -4px 0;
+  display: flex;
+  justify-content: stretch;
+}
+.content .sidebar__associate__content__3__limit__box1 {
+  display: inline-block;
+  flex-grow: 2;
+}
+.content .sidebar__associate__content__3__limit__box1__min {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 1px;
+  background: #fff;
+  height: 33px;
+  font-size: 14px;
+  color: #212121;
+  line-height: 1;
+  padding: 0 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: #fff url(images/92e45378da6a4d31d08410d4a93d016f.svg) no-repeat 90% 50%;
+}
+.content .sidebar__associate__content__3__limit__to {
+  display: inline-block;
+  margin: 3px 9px;
+  font-size: 20px;
+  color: #878787;
+  line-height: 1;
+  flex: 1;
+  text-align: center;
+}
+.content .sidebar__associate__content__3__limit__box2 {
+  display: inline-block;
+  flex-grow: 2;
+  margin-left: 1.5px;
+}
+.content .sidebar__associate__content__3__limit__box2__min {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 1px;
+  background: #fff;
+  height: 33px;
+  font-size: 14px;
+  color: #212121;
+  line-height: 1;
+  padding: 0 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  background: #fff url(images/92e45378da6a4d31d08410d4a93d016f.svg) no-repeat 90% 50%;
+}
+.content .sidebar__associate__content__4 {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.content .sidebar__associate__content__4__assuredsection {
+  width: 100%;
+  box-sizing: border-box;
+}
+.content .sidebar__associate__content__4__assuredsection label {
+  display: flex;
+}
+.content .sidebar__associate__content__4__assuredsection .inputBox {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: top !important;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__4__assuredsection .inputBox1 {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: 1.4px solid #c2c2c2;
+  border-radius: 1.5px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__4__assuredsection .inputBox1:before {
+  position: absolute;
+  content: "";
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__4__assuredsection .inputBox[type=checkbox]:checked + .inputBox1 {
+  background: #2874f0;
+  border: 1.4px solid #2874f0;
+}
+.content .sidebar__associate__content__4__assuredsection .assuredlogo {
+  padding-left: 0 10px;
+  font-size: 16px;
+  padding-left: 11px;
+  display: inline-block;
+  width: calc(100%-25px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content .sidebar__associate__content__4__help__question {
+  border-radius: 50%;
+  background: #fff;
+  color: #878787;
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+  margin: 0 2px 0 8px;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__5, .content .sidebar__associate__content__6, .content .sidebar__associate__content__7, .content .sidebar__associate__content__8, .content .sidebar__associate__content__9, .content .sidebar__associate__content__10, .content .sidebar__associate__content__11, .content .sidebar__associate__content__12, .content .sidebar__associate__content__13 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f0f0f0;
+}
+.content .sidebar__associate__content__5__titlesection, .content .sidebar__associate__content__6__titlesection, .content .sidebar__associate__content__7__titlesection, .content .sidebar__associate__content__8__titlesection, .content .sidebar__associate__content__9__titlesection, .content .sidebar__associate__content__10__titlesection, .content .sidebar__associate__content__11__titlesection, .content .sidebar__associate__content__12__titlesection, .content .sidebar__associate__content__13__titlesection {
+  width: 90%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin: -16px;
+  padding: 16px;
+}
+.content .sidebar__associate__content__5__titlesection__title, .content .sidebar__associate__content__6__titlesection__title, .content .sidebar__associate__content__7__titlesection__title, .content .sidebar__associate__content__8__titlesection__title, .content .sidebar__associate__content__9__titlesection__title, .content .sidebar__associate__content__10__titlesection__title, .content .sidebar__associate__content__11__titlesection__title, .content .sidebar__associate__content__12__titlesection__title, .content .sidebar__associate__content__13__titlesection__title {
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  width: 95%;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__5__titlesection .icon, .content .sidebar__associate__content__6__titlesection .icon, .content .sidebar__associate__content__7__titlesection .icon, .content .sidebar__associate__content__8__titlesection .icon, .content .sidebar__associate__content__9__titlesection .icon, .content .sidebar__associate__content__10__titlesection .icon, .content .sidebar__associate__content__11__titlesection .icon, .content .sidebar__associate__content__12__titlesection .icon, .content .sidebar__associate__content__13__titlesection .icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.content .sidebar__associate__content__5__contentsection__content, .content .sidebar__associate__content__6__contentsection__content, .content .sidebar__associate__content__7__contentsection__content, .content .sidebar__associate__content__8__contentsection__content, .content .sidebar__associate__content__9__contentsection__content, .content .sidebar__associate__content__10__contentsection__content, .content .sidebar__associate__content__11__contentsection__content, .content .sidebar__associate__content__12__contentsection__content, .content .sidebar__associate__content__13__contentsection__content {
+  margin: 7px 0;
+  box-sizing: content-box;
+  padding-top: 20px;
+}
+.content .sidebar__associate__content__5__contentsection__content__1, .content .sidebar__associate__content__6__contentsection__content__1, .content .sidebar__associate__content__7__contentsection__content__1, .content .sidebar__associate__content__8__contentsection__content__1, .content .sidebar__associate__content__9__contentsection__content__1, .content .sidebar__associate__content__10__contentsection__content__1, .content .sidebar__associate__content__11__contentsection__content__1, .content .sidebar__associate__content__12__contentsection__content__1, .content .sidebar__associate__content__13__contentsection__content__1 {
+  margin-bottom: 20px;
+  position: relative;
+}
+.content .sidebar__associate__content__5__contentsection__content__1__input, .content .sidebar__associate__content__6__contentsection__content__1__input, .content .sidebar__associate__content__7__contentsection__content__1__input, .content .sidebar__associate__content__8__contentsection__content__1__input, .content .sidebar__associate__content__9__contentsection__content__1__input, .content .sidebar__associate__content__10__contentsection__content__1__input, .content .sidebar__associate__content__11__contentsection__content__1__input, .content .sidebar__associate__content__12__contentsection__content__1__input, .content .sidebar__associate__content__13__contentsection__content__1__input {
+  width: 90%;
+  border-width: 0 0 2px;
+  border-color: #e0e0e0;
+  height: 20px;
+  font-size: 14px;
+  padding: 0 0 0 21px;
+  color: red;
+  outline: none;
+}
+.content .sidebar__associate__content__5__contentsection__content__1 .icon, .content .sidebar__associate__content__6__contentsection__content__1 .icon, .content .sidebar__associate__content__7__contentsection__content__1 .icon, .content .sidebar__associate__content__8__contentsection__content__1 .icon, .content .sidebar__associate__content__9__contentsection__content__1 .icon, .content .sidebar__associate__content__10__contentsection__content__1 .icon, .content .sidebar__associate__content__11__contentsection__content__1 .icon, .content .sidebar__associate__content__12__contentsection__content__1 .icon, .content .sidebar__associate__content__13__contentsection__content__1 .icon {
+  position: absolute;
+  z-index: 1;
+}
+.content .sidebar__associate__content__5__contentsection__content__2, .content .sidebar__associate__content__5__contentsection__content__3, .content .sidebar__associate__content__5__contentsection__content__4, .content .sidebar__associate__content__5__contentsection__content__5, .content .sidebar__associate__content__5__contentsection__content__6, .content .sidebar__associate__content__5__contentsection__content__7, .content .sidebar__associate__content__5__contentsection__content__8, .content .sidebar__associate__content__6__contentsection__content__2, .content .sidebar__associate__content__6__contentsection__content__3, .content .sidebar__associate__content__6__contentsection__content__4, .content .sidebar__associate__content__6__contentsection__content__5, .content .sidebar__associate__content__6__contentsection__content__6, .content .sidebar__associate__content__6__contentsection__content__7, .content .sidebar__associate__content__6__contentsection__content__8, .content .sidebar__associate__content__7__contentsection__content__2, .content .sidebar__associate__content__7__contentsection__content__3, .content .sidebar__associate__content__7__contentsection__content__4, .content .sidebar__associate__content__7__contentsection__content__5, .content .sidebar__associate__content__7__contentsection__content__6, .content .sidebar__associate__content__7__contentsection__content__7, .content .sidebar__associate__content__7__contentsection__content__8, .content .sidebar__associate__content__8__contentsection__content__2, .content .sidebar__associate__content__8__contentsection__content__3, .content .sidebar__associate__content__8__contentsection__content__4, .content .sidebar__associate__content__8__contentsection__content__5, .content .sidebar__associate__content__8__contentsection__content__6, .content .sidebar__associate__content__8__contentsection__content__7, .content .sidebar__associate__content__8__contentsection__content__8, .content .sidebar__associate__content__9__contentsection__content__2, .content .sidebar__associate__content__9__contentsection__content__3, .content .sidebar__associate__content__9__contentsection__content__4, .content .sidebar__associate__content__9__contentsection__content__5, .content .sidebar__associate__content__9__contentsection__content__6, .content .sidebar__associate__content__9__contentsection__content__7, .content .sidebar__associate__content__9__contentsection__content__8, .content .sidebar__associate__content__10__contentsection__content__2, .content .sidebar__associate__content__10__contentsection__content__3, .content .sidebar__associate__content__10__contentsection__content__4, .content .sidebar__associate__content__10__contentsection__content__5, .content .sidebar__associate__content__10__contentsection__content__6, .content .sidebar__associate__content__10__contentsection__content__7, .content .sidebar__associate__content__10__contentsection__content__8, .content .sidebar__associate__content__11__contentsection__content__2, .content .sidebar__associate__content__11__contentsection__content__3, .content .sidebar__associate__content__11__contentsection__content__4, .content .sidebar__associate__content__11__contentsection__content__5, .content .sidebar__associate__content__11__contentsection__content__6, .content .sidebar__associate__content__11__contentsection__content__7, .content .sidebar__associate__content__11__contentsection__content__8, .content .sidebar__associate__content__12__contentsection__content__2, .content .sidebar__associate__content__12__contentsection__content__3, .content .sidebar__associate__content__12__contentsection__content__4, .content .sidebar__associate__content__12__contentsection__content__5, .content .sidebar__associate__content__12__contentsection__content__6, .content .sidebar__associate__content__12__contentsection__content__7, .content .sidebar__associate__content__12__contentsection__content__8, .content .sidebar__associate__content__13__contentsection__content__2, .content .sidebar__associate__content__13__contentsection__content__3, .content .sidebar__associate__content__13__contentsection__content__4, .content .sidebar__associate__content__13__contentsection__content__5, .content .sidebar__associate__content__13__contentsection__content__6, .content .sidebar__associate__content__13__contentsection__content__7, .content .sidebar__associate__content__13__contentsection__content__8 {
+  padding-bottom: 18px;
+  margin-top: 10px;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection, .content .sidebar__associate__content__5__contentsection__content__3__brandsection, .content .sidebar__associate__content__5__contentsection__content__4__brandsection, .content .sidebar__associate__content__5__contentsection__content__5__brandsection, .content .sidebar__associate__content__5__contentsection__content__6__brandsection, .content .sidebar__associate__content__5__contentsection__content__7__brandsection, .content .sidebar__associate__content__5__contentsection__content__8__brandsection, .content .sidebar__associate__content__6__contentsection__content__2__brandsection, .content .sidebar__associate__content__6__contentsection__content__3__brandsection, .content .sidebar__associate__content__6__contentsection__content__4__brandsection, .content .sidebar__associate__content__6__contentsection__content__5__brandsection, .content .sidebar__associate__content__6__contentsection__content__6__brandsection, .content .sidebar__associate__content__6__contentsection__content__7__brandsection, .content .sidebar__associate__content__6__contentsection__content__8__brandsection, .content .sidebar__associate__content__7__contentsection__content__2__brandsection, .content .sidebar__associate__content__7__contentsection__content__3__brandsection, .content .sidebar__associate__content__7__contentsection__content__4__brandsection, .content .sidebar__associate__content__7__contentsection__content__5__brandsection, .content .sidebar__associate__content__7__contentsection__content__6__brandsection, .content .sidebar__associate__content__7__contentsection__content__7__brandsection, .content .sidebar__associate__content__7__contentsection__content__8__brandsection, .content .sidebar__associate__content__8__contentsection__content__2__brandsection, .content .sidebar__associate__content__8__contentsection__content__3__brandsection, .content .sidebar__associate__content__8__contentsection__content__4__brandsection, .content .sidebar__associate__content__8__contentsection__content__5__brandsection, .content .sidebar__associate__content__8__contentsection__content__6__brandsection, .content .sidebar__associate__content__8__contentsection__content__7__brandsection, .content .sidebar__associate__content__8__contentsection__content__8__brandsection, .content .sidebar__associate__content__9__contentsection__content__2__brandsection, .content .sidebar__associate__content__9__contentsection__content__3__brandsection, .content .sidebar__associate__content__9__contentsection__content__4__brandsection, .content .sidebar__associate__content__9__contentsection__content__5__brandsection, .content .sidebar__associate__content__9__contentsection__content__6__brandsection, .content .sidebar__associate__content__9__contentsection__content__7__brandsection, .content .sidebar__associate__content__9__contentsection__content__8__brandsection, .content .sidebar__associate__content__10__contentsection__content__2__brandsection, .content .sidebar__associate__content__10__contentsection__content__3__brandsection, .content .sidebar__associate__content__10__contentsection__content__4__brandsection, .content .sidebar__associate__content__10__contentsection__content__5__brandsection, .content .sidebar__associate__content__10__contentsection__content__6__brandsection, .content .sidebar__associate__content__10__contentsection__content__7__brandsection, .content .sidebar__associate__content__10__contentsection__content__8__brandsection, .content .sidebar__associate__content__11__contentsection__content__2__brandsection, .content .sidebar__associate__content__11__contentsection__content__3__brandsection, .content .sidebar__associate__content__11__contentsection__content__4__brandsection, .content .sidebar__associate__content__11__contentsection__content__5__brandsection, .content .sidebar__associate__content__11__contentsection__content__6__brandsection, .content .sidebar__associate__content__11__contentsection__content__7__brandsection, .content .sidebar__associate__content__11__contentsection__content__8__brandsection, .content .sidebar__associate__content__12__contentsection__content__2__brandsection, .content .sidebar__associate__content__12__contentsection__content__3__brandsection, .content .sidebar__associate__content__12__contentsection__content__4__brandsection, .content .sidebar__associate__content__12__contentsection__content__5__brandsection, .content .sidebar__associate__content__12__contentsection__content__6__brandsection, .content .sidebar__associate__content__12__contentsection__content__7__brandsection, .content .sidebar__associate__content__12__contentsection__content__8__brandsection, .content .sidebar__associate__content__13__contentsection__content__2__brandsection, .content .sidebar__associate__content__13__contentsection__content__3__brandsection, .content .sidebar__associate__content__13__contentsection__content__4__brandsection, .content .sidebar__associate__content__13__contentsection__content__5__brandsection, .content .sidebar__associate__content__13__contentsection__content__6__brandsection, .content .sidebar__associate__content__13__contentsection__content__7__brandsection, .content .sidebar__associate__content__13__contentsection__content__8__brandsection {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label {
+  display: flex;
+  position: absolute;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label .inputBox, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label .inputBox {
+  display: inline-block;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  vertical-align: top !important;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label .divcheckbox {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: 1.4px solid #c2c2c2;
+  border-radius: 1.5px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label .divcheckbox:before, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label .divcheckbox:before {
+  position: absolute;
+  content: "";
+  left: 5px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label .inputBox[type=checkbox]:checked + .divcheckbox {
+  background: #2874f0;
+  border: 1.4px solid #2874f0;
+}
+.content .sidebar__associate__content__5__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__5__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__6__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__7__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__8__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__9__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__10__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__11__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__12__contentsection__content__8__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__2__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__3__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__4__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__5__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__6__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__7__brandsection label .brand, .content .sidebar__associate__content__13__contentsection__content__8__brandsection label .brand {
+  padding-left: 0 10px;
+  font-size: 16px;
+  padding-left: 11px;
+  display: inline-block;
+  width: calc(100%-25px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+.content .sidebar__associate__content__5__contentsection__more, .content .sidebar__associate__content__6__contentsection__more, .content .sidebar__associate__content__7__contentsection__more, .content .sidebar__associate__content__8__contentsection__more, .content .sidebar__associate__content__9__contentsection__more, .content .sidebar__associate__content__10__contentsection__more, .content .sidebar__associate__content__11__contentsection__more, .content .sidebar__associate__content__12__contentsection__more, .content .sidebar__associate__content__13__contentsection__more {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2874f0;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 9px;
+  padding-bottom: 10px;
+}
+.content .main {
+  flex-grow: 1;
+  overflow: auto;
+  flex-flow: column;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+}
+.content .main .propertiessection {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  background: #fff;
+}
+.content .main .propertiessection__property {
+  flex-grow: 1;
+  overflow: auto;
+}
+.content .main .propertiessection__property__items {
+  background: #fff;
+  padding: 12px 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+  height: 100%;
+  min-height: 72px;
+}
+.content .main .propertiessection__property__items__1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row;
+}
+.content .main .propertiessection__property__items__1__Home .home {
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #878787;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.content .main .propertiessection__property__items__1__BagsWallet .Bags_Back {
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #878787;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.content .main .propertiessection__property__items__1__Bags .Bags {
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #878787;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.content .main .propertiessection__property__items__2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  display: inline-block;
+}
+.content .main .propertiessection__property__items__3 {
+  display: flex;
+  align-content: center;
+}
+.content .main .propertiessection__property__items__3 > * {
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  font-size: 500;
+  padding: 8px 10px 4px 0;
+}
+.content .main .propertiessection__location {
+  flex: 0 0 300px;
+  max-width: 275px;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+  padding: 28px 10px 0 0;
+}
+.content .main .propertiessection__location__delivery {
+  color: #878787;
+  font-weight: 500;
+  font-size: 12px;
+}
+.content .main .propertiessection__location__input {
+  z-index: 4;
+  position: relative;
+  border-radius: 2px;
+  padding: 0 0 4px;
+  border: none;
+  border-bottom: 2px solid #2874f0;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.content .main .propertiessection__location__input svg {
+  vertical-align: middle;
+  margin-right: 6px;
+  fill: #2874f0;
+}
+.content .main .propertiessection__location__input__form {
+  display: inline-block;
+  line-height: 25px;
+}
+.content .main .propertiessection__location__input__form input {
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 6px;
+  vertical-align: middle;
+  width: 110px !important;
+}
+.content .main .propertiessection__location__input__change {
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+  color: #2874f0;
+  margin-left: auto;
+  position: relative;
+}
+.content .main .itemsrow__firstrow {
+  border-top: 1px solid #a19f9f;
+}
+.content .main .itemsrow__firstrow,
+.content .main .itemsrow__secondrow,
+.content .main .itemsrow__thirdrow,
+.content .main .itemsrow__fourthrow,
+.content .main .itemsrow__fifthrow,
+.content .main .itemsrow__sixthrow,
+.content .main .itemsrow__sventhrow,
+.content .main .itemsrow__eightrow,
+.content .main .itemsrow__ninethrow,
+.content .main .itemsrow__tenthrow {
+  align-content: center;
+  width: 100%;
+  background: #fff;
+  max-height: fit-content;
+}
+.content .main .itemsrow__firstrow__items,
+.content .main .itemsrow__secondrow__items,
+.content .main .itemsrow__thirdrow__items,
+.content .main .itemsrow__fourthrow__items,
+.content .main .itemsrow__fifthrow__items,
+.content .main .itemsrow__sixthrow__items,
+.content .main .itemsrow__sventhrow__items,
+.content .main .itemsrow__eightrow__items,
+.content .main .itemsrow__ninethrow__items,
+.content .main .itemsrow__tenthrow__items {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+}
+.content .main .itemsrow__firstrow__items__firstitem, .content .main .itemsrow__firstrow__items__seconditem, .content .main .itemsrow__firstrow__items__thirditem, .content .main .itemsrow__firstrow__items__fourthitem,
+.content .main .itemsrow__secondrow__items__firstitem,
+.content .main .itemsrow__secondrow__items__seconditem,
+.content .main .itemsrow__secondrow__items__thirditem,
+.content .main .itemsrow__secondrow__items__fourthitem,
+.content .main .itemsrow__thirdrow__items__firstitem,
+.content .main .itemsrow__thirdrow__items__seconditem,
+.content .main .itemsrow__thirdrow__items__thirditem,
+.content .main .itemsrow__thirdrow__items__fourthitem,
+.content .main .itemsrow__fourthrow__items__firstitem,
+.content .main .itemsrow__fourthrow__items__seconditem,
+.content .main .itemsrow__fourthrow__items__thirditem,
+.content .main .itemsrow__fourthrow__items__fourthitem,
+.content .main .itemsrow__fifthrow__items__firstitem,
+.content .main .itemsrow__fifthrow__items__seconditem,
+.content .main .itemsrow__fifthrow__items__thirditem,
+.content .main .itemsrow__fifthrow__items__fourthitem,
+.content .main .itemsrow__sixthrow__items__firstitem,
+.content .main .itemsrow__sixthrow__items__seconditem,
+.content .main .itemsrow__sixthrow__items__thirditem,
+.content .main .itemsrow__sixthrow__items__fourthitem,
+.content .main .itemsrow__sventhrow__items__firstitem,
+.content .main .itemsrow__sventhrow__items__seconditem,
+.content .main .itemsrow__sventhrow__items__thirditem,
+.content .main .itemsrow__sventhrow__items__fourthitem,
+.content .main .itemsrow__eightrow__items__firstitem,
+.content .main .itemsrow__eightrow__items__seconditem,
+.content .main .itemsrow__eightrow__items__thirditem,
+.content .main .itemsrow__eightrow__items__fourthitem,
+.content .main .itemsrow__ninethrow__items__firstitem,
+.content .main .itemsrow__ninethrow__items__seconditem,
+.content .main .itemsrow__ninethrow__items__thirditem,
+.content .main .itemsrow__ninethrow__items__fourthitem,
+.content .main .itemsrow__tenthrow__items__firstitem,
+.content .main .itemsrow__tenthrow__items__seconditem,
+.content .main .itemsrow__tenthrow__items__thirditem,
+.content .main .itemsrow__tenthrow__items__fourthitem {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  position: relative;
+  margin: 5px 0 0px 10px;
+  padding-bottom: 20px;
+  transition: all ease-in-out;
+  background: #fff;
+  z-index: 0;
+}
+.content .main .itemsrow__firstrow__items__firstitem__imagesection, .content .main .itemsrow__firstrow__items__seconditem__imagesection, .content .main .itemsrow__firstrow__items__thirditem__imagesection, .content .main .itemsrow__firstrow__items__fourthitem__imagesection,
+.content .main .itemsrow__secondrow__items__firstitem__imagesection,
+.content .main .itemsrow__secondrow__items__seconditem__imagesection,
+.content .main .itemsrow__secondrow__items__thirditem__imagesection,
+.content .main .itemsrow__secondrow__items__fourthitem__imagesection,
+.content .main .itemsrow__thirdrow__items__firstitem__imagesection,
+.content .main .itemsrow__thirdrow__items__seconditem__imagesection,
+.content .main .itemsrow__thirdrow__items__thirditem__imagesection,
+.content .main .itemsrow__thirdrow__items__fourthitem__imagesection,
+.content .main .itemsrow__fourthrow__items__firstitem__imagesection,
+.content .main .itemsrow__fourthrow__items__seconditem__imagesection,
+.content .main .itemsrow__fourthrow__items__thirditem__imagesection,
+.content .main .itemsrow__fourthrow__items__fourthitem__imagesection,
+.content .main .itemsrow__fifthrow__items__firstitem__imagesection,
+.content .main .itemsrow__fifthrow__items__seconditem__imagesection,
+.content .main .itemsrow__fifthrow__items__thirditem__imagesection,
+.content .main .itemsrow__fifthrow__items__fourthitem__imagesection,
+.content .main .itemsrow__sixthrow__items__firstitem__imagesection,
+.content .main .itemsrow__sixthrow__items__seconditem__imagesection,
+.content .main .itemsrow__sixthrow__items__thirditem__imagesection,
+.content .main .itemsrow__sixthrow__items__fourthitem__imagesection,
+.content .main .itemsrow__sventhrow__items__firstitem__imagesection,
+.content .main .itemsrow__sventhrow__items__seconditem__imagesection,
+.content .main .itemsrow__sventhrow__items__thirditem__imagesection,
+.content .main .itemsrow__sventhrow__items__fourthitem__imagesection,
+.content .main .itemsrow__eightrow__items__firstitem__imagesection,
+.content .main .itemsrow__eightrow__items__seconditem__imagesection,
+.content .main .itemsrow__eightrow__items__thirditem__imagesection,
+.content .main .itemsrow__eightrow__items__fourthitem__imagesection,
+.content .main .itemsrow__ninethrow__items__firstitem__imagesection,
+.content .main .itemsrow__ninethrow__items__seconditem__imagesection,
+.content .main .itemsrow__ninethrow__items__thirditem__imagesection,
+.content .main .itemsrow__ninethrow__items__fourthitem__imagesection,
+.content .main .itemsrow__tenthrow__items__firstitem__imagesection,
+.content .main .itemsrow__tenthrow__items__seconditem__imagesection,
+.content .main .itemsrow__tenthrow__items__thirditem__imagesection,
+.content .main .itemsrow__tenthrow__items__fourthitem__imagesection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row-reverse;
+  position: relative;
+  margin-top: 60px;
+  background: #fff;
+}
+.content .main .itemsrow__firstrow__items__firstitem__imagesection__range, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__secondrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__secondrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__secondrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__secondrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__thirdrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__thirdrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__thirdrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__thirdrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__fourthrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__fourthrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__fourthrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__fourthrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__fifthrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__fifthrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__fifthrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__fifthrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__sixthrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__sixthrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__sixthrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__sixthrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__sventhrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__sventhrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__sventhrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__sventhrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__eightrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__eightrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__eightrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__eightrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__ninethrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__ninethrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__ninethrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__ninethrow__items__fourthitem__imagesection__range,
+.content .main .itemsrow__tenthrow__items__firstitem__imagesection__range,
+.content .main .itemsrow__tenthrow__items__seconditem__imagesection__range,
+.content .main .itemsrow__tenthrow__items__thirditem__imagesection__range,
+.content .main .itemsrow__tenthrow__items__fourthitem__imagesection__range {
+  padding-top: 80%;
+}
+.content .main .itemsrow__firstrow__items__firstitem__imagesection__range__image, .content .main .itemsrow__firstrow__items__seconditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__thirditem__imagesection__range__image, .content .main .itemsrow__firstrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__secondrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__secondrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__secondrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__secondrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__thirdrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__thirdrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__thirdrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__thirdrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__fourthrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__fourthrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__fourthrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__fourthrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__fifthrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__fifthrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__fifthrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__fifthrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__sixthrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__sixthrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__sixthrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__sixthrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__sventhrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__sventhrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__sventhrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__sventhrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__eightrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__eightrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__eightrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__eightrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__ninethrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__ninethrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__ninethrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__ninethrow__items__fourthitem__imagesection__range__image,
+.content .main .itemsrow__tenthrow__items__firstitem__imagesection__range__image,
+.content .main .itemsrow__tenthrow__items__seconditem__imagesection__range__image,
+.content .main .itemsrow__tenthrow__items__thirditem__imagesection__range__image,
+.content .main .itemsrow__tenthrow__items__fourthitem__imagesection__range__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  transition: opacity 0.5s linear;
+  opacity: 1;
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+.content .main .itemsrow__firstrow__items__firstitem__imagesection .icon, .content .main .itemsrow__firstrow__items__seconditem__imagesection .icon, .content .main .itemsrow__firstrow__items__thirditem__imagesection .icon, .content .main .itemsrow__firstrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__secondrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__secondrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__secondrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__secondrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__thirdrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__thirdrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__thirdrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__thirdrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__fourthrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__fourthrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__fourthrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__fourthrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__fifthrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__fifthrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__fifthrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__fifthrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__sixthrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__sixthrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__sixthrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__sixthrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__sventhrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__sventhrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__sventhrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__sventhrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__eightrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__eightrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__eightrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__eightrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__ninethrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__ninethrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__ninethrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__ninethrow__items__fourthitem__imagesection .icon,
+.content .main .itemsrow__tenthrow__items__firstitem__imagesection .icon,
+.content .main .itemsrow__tenthrow__items__seconditem__imagesection .icon,
+.content .main .itemsrow__tenthrow__items__thirditem__imagesection .icon,
+.content .main .itemsrow__tenthrow__items__fourthitem__imagesection .icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  opacity: 1;
+  z-index: 1;
+  margin: -55px 15px 0 0;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection > *, .content .main .itemsrow__firstrow__items__seconditem__infosection > *, .content .main .itemsrow__firstrow__items__thirditem__infosection > *, .content .main .itemsrow__firstrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__secondrow__items__firstitem__infosection > *,
+.content .main .itemsrow__secondrow__items__seconditem__infosection > *,
+.content .main .itemsrow__secondrow__items__thirditem__infosection > *,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection > *,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection > *,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection > *,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection > *,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection > *,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection > *,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection > *,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection > *,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection > *,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection > *,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection > *,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection > *,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection > *,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection > *,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection > *,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__eightrow__items__firstitem__infosection > *,
+.content .main .itemsrow__eightrow__items__seconditem__infosection > *,
+.content .main .itemsrow__eightrow__items__thirditem__infosection > *,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection > *,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection > *,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection > *,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection > *,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection > *,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection > *,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection > *,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection > * {
+  padding: 4px 20px 0 15px;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection, .content .main .itemsrow__firstrow__items__seconditem__infosection, .content .main .itemsrow__firstrow__items__thirditem__infosection, .content .main .itemsrow__firstrow__items__fourthitem__infosection,
+.content .main .itemsrow__secondrow__items__firstitem__infosection,
+.content .main .itemsrow__secondrow__items__seconditem__infosection,
+.content .main .itemsrow__secondrow__items__thirditem__infosection,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection,
+.content .main .itemsrow__eightrow__items__firstitem__infosection,
+.content .main .itemsrow__eightrow__items__seconditem__infosection,
+.content .main .itemsrow__eightrow__items__thirditem__infosection,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.6s ease-out;
+  margin-top: -4.5rem;
+  transform: translateY(40%);
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__name, .content .main .itemsrow__firstrow__items__seconditem__infosection__name, .content .main .itemsrow__firstrow__items__thirditem__infosection__name, .content .main .itemsrow__firstrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__name,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__name,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__name,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__name,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__name,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__name,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__name,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__name,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__name,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__name,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__name,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__name,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__name,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__name,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__name,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__name,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__name,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__name,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__name,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__name,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__name,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__name,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__name,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__name,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__name,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__name,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__name,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__name,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__name {
+  text-transform: uppercase;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__pricesection,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__pricesection,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__pricesection,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__pricesection,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__pricesection {
+  display: flex;
+  align-items: center;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .price, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__pricesection .price,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__pricesection .price,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__pricesection .price,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__pricesection .price,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__pricesection .price {
+  font-weight: 600;
+  color: #000000;
+  padding-right: 10px;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__pricesection .actualprice,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__pricesection .actualprice,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__pricesection .actualprice {
+  position: relative;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .actualprice .cutoff, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__pricesection .actualprice .cutoff,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__pricesection .actualprice .cutoff {
+  position: absolute;
+  border: 1px solid #878787;
+  width: 27px;
+  margin-top: -10px;
+  z-index: 2;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__seconditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__thirditem__infosection__pricesection .off, .content .main .itemsrow__firstrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__secondrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__secondrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__secondrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__eightrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__eightrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__eightrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection__pricesection .off,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection__pricesection .off,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection__pricesection .off,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection__pricesection .off,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection__pricesection .off {
+  color: green;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__secondrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__secondrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__secondrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__eightrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__eightrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__eightrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection .addtocart,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection .addtocart,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection .addtocart,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection .addtocart,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection .addtocart {
+  height: 2rem;
+  margin-top: 10px;
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__seconditem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__thirditem__infosection .addtocart .cartbtn, .content .main .itemsrow__firstrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__secondrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__secondrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__secondrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__eightrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__eightrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__eightrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection .addtocart .cartbtn,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection .addtocart .cartbtn {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  background-image: linear-gradient(to right bottom, #2874f0, #2874f0);
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  text-align: center;
+  cursor: pointer;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection:hover, .content .main .itemsrow__firstrow__items__firstitem__infosection:visited, .content .main .itemsrow__firstrow__items__firstitem__infosection:active, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover, .content .main .itemsrow__firstrow__items__seconditem__infosection:visited, .content .main .itemsrow__firstrow__items__seconditem__infosection:active, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover, .content .main .itemsrow__firstrow__items__thirditem__infosection:visited, .content .main .itemsrow__firstrow__items__thirditem__infosection:active, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover, .content .main .itemsrow__firstrow__items__fourthitem__infosection:visited, .content .main .itemsrow__firstrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:active,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:active,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:active,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:active,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:active,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:active,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:active,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:active,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:active,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:active,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:active,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:active,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:active,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:active,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:active,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:active,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:active,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:active,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:active,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:active,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:active,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:active,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:active,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:active,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:active,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:hover,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:visited,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:active,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:hover,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:visited,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:active,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:hover,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:visited,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:active,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:hover,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:visited,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:active {
+  transform: translateY(-10px);
+  background: #fff;
+}
+.content .main .itemsrow__firstrow__items__firstitem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__firstitem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__firstitem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__seconditem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__thirditem__infosection:active .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:hover .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:visited .addtocart, .content .main .itemsrow__firstrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__secondrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__secondrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__secondrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__secondrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__thirdrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__thirdrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__thirdrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__thirdrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__fourthrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__fourthrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__fourthrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__fourthrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__fifthrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__fifthrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__fifthrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__fifthrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__sixthrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__sixthrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__sixthrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__sixthrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__sventhrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__sventhrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__sventhrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__sventhrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__eightrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__eightrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__eightrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__eightrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__ninethrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__ninethrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__ninethrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__ninethrow__items__fourthitem__infosection:active .addtocart,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:hover .addtocart,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:visited .addtocart,
+.content .main .itemsrow__tenthrow__items__firstitem__infosection:active .addtocart,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:hover .addtocart,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:visited .addtocart,
+.content .main .itemsrow__tenthrow__items__seconditem__infosection:active .addtocart,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:hover .addtocart,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:visited .addtocart,
+.content .main .itemsrow__tenthrow__items__thirditem__infosection:active .addtocart,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:hover .addtocart,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:visited .addtocart,
+.content .main .itemsrow__tenthrow__items__fourthitem__infosection:active .addtocart {
+  opacity: 1;
+}
+.content .main .itemsrow__firstrow__items__firstitem:hover, .content .main .itemsrow__firstrow__items__seconditem:hover, .content .main .itemsrow__firstrow__items__thirditem:hover, .content .main .itemsrow__firstrow__items__fourthitem:hover,
+.content .main .itemsrow__secondrow__items__firstitem:hover,
+.content .main .itemsrow__secondrow__items__seconditem:hover,
+.content .main .itemsrow__secondrow__items__thirditem:hover,
+.content .main .itemsrow__secondrow__items__fourthitem:hover,
+.content .main .itemsrow__thirdrow__items__firstitem:hover,
+.content .main .itemsrow__thirdrow__items__seconditem:hover,
+.content .main .itemsrow__thirdrow__items__thirditem:hover,
+.content .main .itemsrow__thirdrow__items__fourthitem:hover,
+.content .main .itemsrow__fourthrow__items__firstitem:hover,
+.content .main .itemsrow__fourthrow__items__seconditem:hover,
+.content .main .itemsrow__fourthrow__items__thirditem:hover,
+.content .main .itemsrow__fourthrow__items__fourthitem:hover,
+.content .main .itemsrow__fifthrow__items__firstitem:hover,
+.content .main .itemsrow__fifthrow__items__seconditem:hover,
+.content .main .itemsrow__fifthrow__items__thirditem:hover,
+.content .main .itemsrow__fifthrow__items__fourthitem:hover,
+.content .main .itemsrow__sixthrow__items__firstitem:hover,
+.content .main .itemsrow__sixthrow__items__seconditem:hover,
+.content .main .itemsrow__sixthrow__items__thirditem:hover,
+.content .main .itemsrow__sixthrow__items__fourthitem:hover,
+.content .main .itemsrow__sventhrow__items__firstitem:hover,
+.content .main .itemsrow__sventhrow__items__seconditem:hover,
+.content .main .itemsrow__sventhrow__items__thirditem:hover,
+.content .main .itemsrow__sventhrow__items__fourthitem:hover,
+.content .main .itemsrow__eightrow__items__firstitem:hover,
+.content .main .itemsrow__eightrow__items__seconditem:hover,
+.content .main .itemsrow__eightrow__items__thirditem:hover,
+.content .main .itemsrow__eightrow__items__fourthitem:hover,
+.content .main .itemsrow__ninethrow__items__firstitem:hover,
+.content .main .itemsrow__ninethrow__items__seconditem:hover,
+.content .main .itemsrow__ninethrow__items__thirditem:hover,
+.content .main .itemsrow__ninethrow__items__fourthitem:hover,
+.content .main .itemsrow__tenthrow__items__firstitem:hover,
+.content .main .itemsrow__tenthrow__items__seconditem:hover,
+.content .main .itemsrow__tenthrow__items__thirditem:hover,
+.content .main .itemsrow__tenthrow__items__fourthitem:hover {
+  box-shadow: 0.5px 0.5px 5px 10px whitesmoke;
+}
+.content .main .itemsrow__pagination {
+  border-top: 1px solid #878787;
+  display: flex;
+  width: 100%;
+  background: #fff;
+  align-items: center;
+  z-index: 100;
+  padding: 20px;
+}
+.content .main .itemsrow__pagination__pagelimit {
+  font-size: 14px;
+  font-weight: 600;
+  width: 25%;
+  left: 0;
+}
+.content .main .itemsrow__pagination__list {
+  width: 50%;
+}
+.content .main .itemsrow__pagination__list span {
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
+}
+.content .main .itemsrow__pagination__list .page-1 {
+  background: #2874f0;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+}
+.content .main .itemsrow__pagination__next {
+  font-size: 16px;
+  color: #2874f0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.recommend {
+  height: 10vh;
+  width: 100vw;
+  background: #ff2f90;
+  color: #00ffd5;
+}
+
+.footer {
+  height: 100%;
+  width: 100vw;
+  background: #172337;
+  color: #fff;
+  display: flex;
+  flex-flow: column;
+  letter-spacing: 0.5;
+  font-weight: 200;
+  margin-top: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0 40px 0;
+  margin: 0 60px 0 60px;
+}
+.footer__info__social {
+  display: flex;
+  padding-right: 40px;
+}
+.footer__info__social__about > *, .footer__info__social__help > *, .footer__info__social__policy > *, .footer__info__social__social > * {
+  padding: 0 25px 5px 0px;
+}
+.footer__info__border {
+  height: 10rem;
+  border: 1px solid #888888;
+}
+.footer__info__address {
+  display: flex;
+}
+.footer__info__address__mail > *, .footer__info__address__register > * {
+  padding: 0 20px 5px 20px;
+}
+.footer__info__address__mail {
+  display: flex;
+  flex-flow: column;
+}
+.footer__help {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 2px solid #888888;
+  padding-top: 30px;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #f5f5f5;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  font-size: 14px;
+  font-family: "Roboto, Arial, sans-serif";
+  display: flex;
+  flex-direction: column;
+}
