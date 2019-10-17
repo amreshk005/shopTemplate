@@ -2779,98 +2779,6 @@
 </body>
 <script>
 
-
-  const circle1 = document.getElementById('circle1');
-  const circle2 = document.getElementById('circle2');
-  let line1 = document.getElementById('line1');
-  let line2 = document.getElementById('line2');
-  let range = document.getElementById('range');
-  var line2_width = 248;
-
-  console.log(line2.getBoundingClientRect());
-  console.log(circle2.getBoundingClientRect());
-  console.log(circle2.offsetLeft);
-
-  // circle2.style.left = (circle2.getBoundingClientRect().left - circle2.offsetLeft) + "px";
-
-  // line2.style.left = "0px";
-
-  // line2.style.background = "red";
-
-
-  function circle1Event() {
-    let ismoving = false;
-    let a = [];
-    // let width = line2.getBoundingClientRect().width;
-    // console.log("width: " + width);
-    circle1.addEventListener('mousedown', e => {
-      x = e.clientX;
-      ismoving = true
-
-    })
-
-
-
-    circle1.addEventListener('mousemove', e => {
-      if (ismoving == true) {
-        x = e.clientX;
-        // console.log("x of: " + x);
-        x1 = x - 17.5;
-        y1 = x - 27.5;
-
-        // console.log("x1of circle1: " + x1);
-        if (x1 <= 250 && x1 > 5 && line2.getBoundingClientRect().width >= 20) {
-          if (a.length == 0) {
-            a.push(y1);
-          } else if (a[0] !== y1) {
-            a.push(y1);
-          }
-          let circle_left = x1 + "px";
-          let line_left = y1 + "px";
-          console.log("circle_left: " + circle_left);
-          circle1.style.left = circle_left;
-          line2.style.left = line_left;
-          console.log("circle1.getBoundingClientRect().left: " + circle1.getBoundingClientRect().left);
-          if (a[0] == y1) {
-            // this elseif will handle first move.
-            if (line2.getBoundingClientRect().width == 248) {
-              line_width = (line2.getBoundingClientRect().width - y1) + "px";
-              // console.log("line_width: " + line_width);
-              // console.log("pop because it is initial: " + a[0]);
-
-            }
-
-          } else if (a[0] !== a[1]) {
-            line_width = (line2.getBoundingClientRect().width - (a[1] - a[0]) + "px");
-            // console.log("line_width am inside else if: " + line_width);
-            if (a.length > 1) {
-              a.shift();
-
-              // console.log("pop because it is different: " + a);
-              // console.log("a:" + a);
-            }
-          }
-
-
-          line2.style.width = line_width;
-        }
-      }
-
-    })
-
-    circle1.addEventListener('mouseup', e => {
-
-      ismoving = false;
-      console.log("ismoving:" + ismoving);
-    })
-
-  }
-
-  circle1Event()
-
-
-
-  // Range Listners
   function rangeListner() {
     let ismoving = true;
     let a = []
@@ -2905,68 +2813,6 @@
   rangeListner();
 
 
-  // Circle2 Listner
-  function circle2Event() {
-    let ismoving = false;
-    let a = [];
-    let boundary = 248;
-    circle2.addEventListener('mousedown', e => {
-      ismoving = true;
-      circle2.addEventListener('mousemove', e => {
-        if (ismoving == true) {
-
-          x = e.clientX;
-
-          circleLeft = x - 269;
-          line2Left = x - 274;
-          console.log("circle2Left :" + circleLeft);
-          console.log("circle2.getBoundingClientRect().left: " + circle2.getBoundingClientRect().left);
-          if (circle2.getBoundingClientRect().left - circle1.getBoundingClientRect().left > 20) {
-            if (circleLeft < 6 && line2Left <= 0) {
-              circle2.style.left = circleLeft + "px";
-              // line2.style.left = line2Left + "px";
-            }
-
-            if (line2Left < 0) {
-              console.log(line2Left);
-              if (a.length == 0) {
-                a.push(-(line2Left));
-              } else if (a[0] !== line2Left) {
-                a.push(-(line2Left));
-                if (a.length > 2) {
-                  a.shift();
-                }
-              }
-              console.log("a:" + a);
-
-              if (a[0] == -(line2Left) && a.length == 1) {
-                line2.style.width = (line2.getBoundingClientRect().width - a[0]) + "px";
-                console.log("firstWidthChange: " + line2.style.width);
-              } else if (a.length > 0) {
-                if ((line2.getBoundingClientRect().width - (a[1] - a[0])) >= 20) {
-                  line2.style.width = (line2.getBoundingClientRect().width - (a[1] - a[0])) + "px";
-                  console.log("secondWidthChange: " + line2.style.width);
-                  boundary = (line2.getBoundingClientRect().width)
-                }
-
-              }
-
-            }
-          }
-        }
-      })
-    })
-
-
-    circle2.addEventListener('mouseup', e => {
-      x = e.clientX;
-      ismoving = false;
-
-    })
-
-  }
-
-  circle2Event();
 
   document.querySelector('.sidebar__associate__content__5').addEventListener('click', e => {
     // document.querySelector('.sidebar__associate__content__5__contentsection').style.display = "none";
@@ -2984,5 +2830,5 @@
   })
 
 </script>
-<script src="dist/bundle.js"></script>
+<script src="./js/bundle.js"></script>
 </html>
