@@ -2,13 +2,15 @@ import {elements} from "../utils/base";
 
 export const getInput = () => elements.searchInput.value;
 
-const renderRecipe = recipe => {
+const renderRecipe = (recipe, itemrow, mapitem) => {
+  let mainItem = document.querySelector(`.itemsrow__${itemrow}__items`);
+
   const markup = `
 
-    <div class="itemsrow__firstrow__items__firstitem">
-      <div class="itemsrow__firstrow__items__firstitem__imagesection">
-        <div class="itemsrow__firstrow__items__firstitem__imagesection__range">
-          <img class="itemsrow__firstrow__items__firstitem__imagesection__range__image"
+    <div class="itemsrow__${itemrow}__items__${mapitem}">
+      <div class="itemsrow__${itemrow}__items__${mapitem}__imagesection">
+        <div class="itemsrow__${itemrow}__items__${mapitem}__imagesection__range">
+          <img class="itemsrow__${itemrow}__items__${mapitem}__imagesection__range__image"
             src="${recipe.thumbnailImageUrl}" alt="bag-1">
         </div>
         <svg class="icon icon-heart" height="24" width="24" viewBox="0 0 20 16">
@@ -19,18 +21,18 @@ const renderRecipe = recipe => {
         </svg>
 
       </div>
-      <div class="itemsrow__firstrow__items__firstitem__infosection">
-        <span class="itemsrow__firstrow__items__firstitem__infosection__name">Asus 15.6* Laptop Bag</span>
-        <span class="itemsrow__firstrow__items__firstitem__infosection__colour">Black</span>
-        <div class="itemsrow__firstrow__items__firstitem__infosection__assuredlogo">
+      <div class="itemsrow__${itemrow}__items__${mapitem}__infosection">
+        <span class="itemsrow__${itemrow}__items__${mapitem}__infosection__name">${recipe.brandName}</span>
+        <span class="itemsrow__${itemrow}__items__${mapitem}__infosection__colour">Black</span>
+        <div class="itemsrow__${itemrow}__items__${mapitem}__infosection__assuredlogo">
           <img height="18" src="./images/fa_8b4b59.png" alt="assuredlogo">
         </div>
-        <div class="itemsrow__firstrow__items__firstitem__infosection__pricesection">
-          <span class="price">&#8377;699</span>
-          <span class="actualprice">1043
+        <div class="itemsrow__${itemrow}__items__${mapitem}__infosection__pricesection">
+          <span class="price">${recipe.price}</span>
+          <span class="actualprice">${recipe.originalPrice}
             <div class="cutoff"></div>
           </span>
-          <span class="off">33%off</span>
+          <span class="off">${recipe.percentOff}off</span>
 
         </div>
         <div class="addtocart">
@@ -48,30 +50,47 @@ const renderRecipe = recipe => {
   
   `;
 
-  elements.mainItem.insertAdjacentHTML("beforeend", markup);
+  mainItem.insertAdjacentHTML("beforeend", markup);
 };
 
-const renderRecipeParent = () => {
+const renderRecipeParent = firstrow => {
   const markup = `
-  <div class="itemsrow__firstrow">
-  <div class="itemsrow__firstrow__items">
+  <div class="itemsrow__${firstrow}">
+  <div class="itemsrow__${firstrow}__items">
   </div>
 </div> 
   `;
   elements.main.insertAdjacentHTML("beforeend", markup);
 };
 
-export const renderResults = recipes => {
-  // if (recipes[0] || recipes[1]) {
-  //   recipes.forEach(el => renderRecipe(el));
-  // }
-  // renderRecipe(recipes);
-  for (let i = 0; i <= recipes.length; i++) {
-    if (i == 0 || i % 5 === 0) {
-      renderRecipeParent();
+export const renderResults = async recipes => {
+  var classobj = {
+    classrow: [
+      "firstrow",
+      "secondrow",
+      "thirdrow",
+      "fourthrow",
+      "fifthrow",
+      "sixthrow",
+      "seventhrow",
+      "eightrow",
+      "ninethrow",
+      "tenthrow"
+    ]
+  };
+  var count = 0;
+  for (let i = 0; i < 40; i++) {
+    if (i == 0 || i % 4 === 0) {
+      var item = 0;
+      if (i > 0) {
+        count = count + 1;
+      }
+      await renderRecipeParent(classobj.classrow[count]);
+      for (let j = i; j < i + 4; j++) {
+        let itemNum = ["firstitem", "seconditem", "thirditem", "fourthitem"];
+        await renderRecipe(recipes[j], classobj.classrow[count], itemNum[item]);
+        item = item + 1;
+      }
     }
-  }
-  for (let i = 0; i < 4; i++) {
-    renderRecipe(recipes[i]);
   }
 };

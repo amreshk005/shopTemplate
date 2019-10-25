@@ -3,6 +3,7 @@ import Search from "./components/models/Search";
 import {circle1Event, circle2Event} from "./components/range";
 import {elements} from "./components/utils/base";
 import * as searchView from "./components/view/searchView";
+import * as paginationView from "./components/view/pagination";
 circle1Event();
 circle2Event();
 
@@ -12,7 +13,8 @@ const controlSearch = async () => {
   if (query) {
     state.search = new Search(query);
     await state.search.getResults();
-    searchView.renderResults(state.search.result);
+    await searchView.renderResults(state.search.result);
+    paginationView.pageNumber();
   }
 };
 

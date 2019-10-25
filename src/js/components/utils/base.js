@@ -8,6 +8,5 @@ export const elements = {
   searchInput: document.querySelector(
     ".navbar-1__content__formsection__form__inner__input"
   ),
-  main: document.querySelector(".main"),
-  mainItem: document.querySelector(".itemsrow__firstrow__items")
+  main: document.querySelector(".main")
 };
